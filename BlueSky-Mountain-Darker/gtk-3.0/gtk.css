@@ -4832,8 +4832,8 @@ event.slanted-end:backdrop label, event.slanted-end:backdrop {
 @define-color wm_icon_hover_bg #C4C7CC;
 @define-color wm_icon_active_bg #ffffff;
 .budgie-menu.background {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #f7f7f7;
+  border-color: #f7f7f7;
   border-radius: 2px; }
 .budgie-menu scrolledwindow {
   background-color: #ffffff;
@@ -4887,26 +4887,19 @@ event.slanted-end:backdrop label, event.slanted-end:backdrop {
     .budgie-menu row:hover label {
       color: #0F1423; }
   .budgie-menu row:active {
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 2px;
-    color: #417AC3; }
-    .budgie-menu row:active label {
-      color: #417AC3; }
-  .budgie-menu row button {
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 1px;
-    color: rgba(15, 20, 35, 0.78); }
-    .budgie-menu row button label {
-      color: rgba(15, 20, 35, 0.78); }
-    .budgie-menu row button:hover {
-      background-color: transparent;
-      border-color: transparent;
-      border-radius: 2px;
+    background-color: #ededed;
+    border-color: #ededed;
+    border-radius: 2px; }
+    .budgie-menu row:active label, .budgie-menu row:active {
       color: #0F1423; }
-      .budgie-menu row button:hover label {
-        color: #0F1423; }
+  .budgie-menu row button label, .budgie-menu row button {
+    color: rgba(15, 20, 35, 0.78); }
+  .budgie-menu row button:hover {
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+    border-radius: 2px; }
+    .budgie-menu row button:hover label, .budgie-menu row button:hover {
+      color: #0F1423; }
 .budgie-menu entry.search, .budgie-menu entry.search:focus {
   border-style: none;
   background-color: transparent;
@@ -4918,95 +4911,110 @@ event.slanted-end:backdrop label, event.slanted-end:backdrop {
   font-size: 101%;
   color: #0F1423; }
 
-.budgie-popover {
+.budgie-popover, .budgie-popover.background {
   border-style: none;
   border-width: 0px;
   border-color: transparent;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
-  background-color: #ffffff; }
-  .budgie-popover list {
+  background-color: #ffffff;
+  background-clip: border-box; }
+  .budgie-popover list, .budgie-popover.background list {
     background-color: transparent; }
-  .budgie-popover.places-menu {
+  .budgie-popover button:not(.category-button), .budgie-popover.background button:not(.category-button) {
+    background-color: #ffffff;
+    border-color: #ffffff; }
+    .budgie-popover button:not(.category-button) label, .budgie-popover button:not(.category-button), .budgie-popover.background button:not(.category-button) label, .budgie-popover.background button:not(.category-button) {
+      color: rgba(15, 20, 35, 0.78); }
+    .budgie-popover button:not(.category-button):hover, .budgie-popover.background button:not(.category-button):hover {
+      background-color: #f7f7f7;
+      border-color: #f7f7f7; }
+      .budgie-popover button:not(.category-button):hover label, .budgie-popover button:not(.category-button):hover, .budgie-popover.background button:not(.category-button):hover label, .budgie-popover.background button:not(.category-button):hover {
+        color: #0F1423; }
+    .budgie-popover button:not(.category-button):active, .budgie-popover.background button:not(.category-button):active {
+      background-color: #ededed;
+      border-color: #ededed; }
+      .budgie-popover button:not(.category-button):active label, .budgie-popover button:not(.category-button):active, .budgie-popover.background button:not(.category-button):active label, .budgie-popover.background button:not(.category-button):active {
+        color: #0F1423; }
+  .budgie-popover.places-menu, .budgie-popover.background.places-menu {
     background-color: #ffffff;
     border-color: #ffffff;
     border-radius: 2px;
     color: rgba(15, 20, 35, 0.78); }
-    .budgie-popover.places-menu button {
+    .budgie-popover.places-menu button, .budgie-popover.background.places-menu button {
       border-radius: 2px;
       background-color: transparent;
       border-color: transparent;
       color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.places-menu button label {
+      .budgie-popover.places-menu button label, .budgie-popover.background.places-menu button label {
         color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.places-menu button:hover {
+      .budgie-popover.places-menu button:hover, .budgie-popover.background.places-menu button:hover {
         border-radius: 2px;
-        background-color: transparent;
-        border-color: transparent;
-        color: #0F1423; }
-        .budgie-popover.places-menu button:hover label {
+        background-color: #f7f7f7;
+        border-color: #f7f7f7; }
+        .budgie-popover.places-menu button:hover label, .budgie-popover.places-menu button:hover, .budgie-popover.background.places-menu button:hover label, .budgie-popover.background.places-menu button:hover {
           color: #0F1423; }
-    .budgie-popover.places-menu row {
+    .budgie-popover.places-menu row, .budgie-popover.background.places-menu row {
       border-radius: 2px;
       background-color: #ffffff;
       border-color: #ffffff;
       color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.places-menu row label {
+      .budgie-popover.places-menu row label, .budgie-popover.background.places-menu row label {
         color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.places-menu row:hover {
+      .budgie-popover.places-menu row:hover, .budgie-popover.background.places-menu row:hover {
         border-radius: 2px;
         background-color: #f7f7f7;
-        border-color: #f7f7f7;
-        color: #0F1423; }
-        .budgie-popover.places-menu row:hover label {
+        border-color: #f7f7f7; }
+        .budgie-popover.places-menu row:hover label, .budgie-popover.places-menu row:hover, .budgie-popover.background.places-menu row:hover label, .budgie-popover.background.places-menu row:hover {
           color: #0F1423; }
-      .budgie-popover.places-menu row:active {
+      .budgie-popover.places-menu row:active, .budgie-popover.background.places-menu row:active {
         border-radius: 2px;
-        background-color: transparent;
-        border-color: transparent;
-        color: #417AC3; }
-        .budgie-popover.places-menu row:active label {
-          color: #417AC3; }
-  .budgie-popover.user-menu {
+        background-color: #ededed;
+        border-color: #ededed; }
+        .budgie-popover.places-menu row:active label, .budgie-popover.places-menu row:active, .budgie-popover.background.places-menu row:active label, .budgie-popover.background.places-menu row:active {
+          color: #0F1423; }
+  .budgie-popover.user-menu, .budgie-popover.background.user-menu {
     background-color: #ffffff;
     border-color: #ffffff;
     border-radius: 2px;
     color: rgba(15, 20, 35, 0.78); }
-    .budgie-popover.user-menu button {
+    .budgie-popover.user-menu button, .budgie-popover.background.user-menu button {
       border-radius: 2px;
       background-color: transparent;
       border-color: transparent;
       color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.user-menu button label {
+      .budgie-popover.user-menu button label, .budgie-popover.background.user-menu button label {
         color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.user-menu button:hover {
+      .budgie-popover.user-menu button:hover, .budgie-popover.background.user-menu button:hover {
         border-radius: 2px;
-        background-color: transparent;
-        border-color: transparent;
-        color: #0F1423; }
-        .budgie-popover.user-menu button:hover label {
+        background-color: #f7f7f7;
+        border-color: #f7f7f7; }
+        .budgie-popover.user-menu button:hover label, .budgie-popover.user-menu button:hover, .budgie-popover.background.user-menu button:hover label, .budgie-popover.background.user-menu button:hover {
           color: #0F1423; }
-    .budgie-popover.user-menu row {
+    .budgie-popover.user-menu row, .budgie-popover.background.user-menu row {
       border-radius: 2px;
       background-color: #ffffff;
       border-color: #ffffff;
       color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.user-menu row label {
+      .budgie-popover.user-menu row label, .budgie-popover.background.user-menu row label {
         color: rgba(15, 20, 35, 0.78); }
-      .budgie-popover.user-menu row:hover {
+      .budgie-popover.user-menu row:hover, .budgie-popover.background.user-menu row:hover {
         border-radius: 2px;
         background-color: #f7f7f7;
-        border-color: #f7f7f7;
-        color: #0F1423; }
-        .budgie-popover.user-menu row:hover label {
+        border-color: #f7f7f7; }
+        .budgie-popover.user-menu row:hover label, .budgie-popover.user-menu row:hover, .budgie-popover.background.user-menu row:hover label, .budgie-popover.background.user-menu row:hover {
           color: #0F1423; }
-      .budgie-popover.user-menu row:active {
+      .budgie-popover.user-menu row:active, .budgie-popover.background.user-menu row:active {
         border-radius: 2px;
-        background-color: transparent;
-        border-color: transparent;
-        color: #417AC3; }
-        .budgie-popover.user-menu row:active label {
-          color: #417AC3; }
+        background-color: #ededed;
+        border-color: #ededed; }
+        .budgie-popover.user-menu row:active label, .budgie-popover.user-menu row:active, .budgie-popover.background.user-menu row:active label, .budgie-popover.background.user-menu row:active {
+          color: #0F1423; }
+  .budgie-popover frame > border, .budgie-popover .frame, .budgie-popover.background frame > border, .budgie-popover.background .frame {
+    border: none; }
+
+.budgie-popover .container {
+  background-color: #ffffff; }
 
 .budgie-run-dialog {
   background-color: #ffffff;
