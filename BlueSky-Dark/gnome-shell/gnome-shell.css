@@ -1164,6 +1164,10 @@ StScrollBar {
     color: inherit;
     padding: 8px;
     font-size: 1em; }
+  .message .message-body, .message:hover .message-body {
+    color: #E4E7EA; }
+  .message:active .message-body {
+    color: #ffffff; }
 
 .message-media-control {
   padding: 6px;
