@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="57"
+   height="22"
+   viewBox="0 0 15.081247 5.8208334"
+   version="1.1"
+   id="svg2858"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="switch-on-selected.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2852" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="0.17857143"
+     inkscape:cy="-2.5"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1880"
+     inkscape:window-height="972"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0"
+     width="51px" />
+  <metadata
+     id="metadata2855">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-291.70832)">
+    <g
+       style="display:inline"
+       inkscape:label="#g1806"
+       id="switch-active-selected-dark"
+       transform="matrix(0.26458333,0,0,0.26458333,-62.791071,360.07343)">
+      <rect
+         style="opacity:1;fill:#3e506a;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.196078"
+         id="rect1991"
+         width="56.999996"
+         height="22"
+         x="237.32059"
+         y="-258.38782"
+         rx="0.013031123"
+         ry="0.013031123" />
+      <g
+         id="g2001"
+         transform="matrix(0.99993323,0,0,1,0.01591177,0)"
+         style="stroke-width:1.00003">
+        <path
+           inkscape:connector-curvature="0"
+           id="path1993"
+           d="m 248.32427,-237.88782 h 44.99999"
+           style="fill:none;stroke:#d1d1d1;stroke-width:1.00003px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <circle
+           r="9.999999"
+           cy="-247.38782"
+           cx="248.32059"
+           id="circle1995"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#2b5489;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.196078" />
+        <text
+           id="text1999"
+           y="-244.961"
+           x="242.83276"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.72;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00003"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.66667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:1.00003"
+             y="-244.961"
+             x="242.83276"
+             id="tspan1997"
+             sodipodi:role="line">ON</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

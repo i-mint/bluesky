@@ -1,0 +1,9 @@
+[X-GNOME-Metatheme]
+Name=BlueSky-Solid
+Type=X-GNOME-Metatheme
+Comment= BlueSky Gtk Themes 
+Encoding=UTF-8
+GtkTheme=BlueSky-Solid
+IconTheme=Papirus
+CursorTheme=Adwaita
+CursorSize=24
