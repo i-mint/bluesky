@@ -1538,9 +1538,9 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:acti
 headerbar .linked:not(.vertical).path-bar > button,
 .primary-toolbar .path-bar-box > .linked > button,
 headerbar .path-bar-box > .linked > button {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
   border-right-color: #232c3b;
 }
@@ -1560,9 +1560,9 @@ headerbar .path-bar-box > .linked > button image {
 headerbar .linked:not(.vertical).path-bar > button:hover,
 .primary-toolbar .path-bar-box > .linked > button:hover,
 headerbar .path-bar-box > .linked > button:hover {
-  color: rgba(226, 231, 236, 0.8);
-  background-color: #3d4c69;
-  border-color: transparent;
+  border-color: #232c3b;
+  color: rgba(231, 235, 240, 0.8);
+  background-color: #475879;
   margin: 0px;
 }
 .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover label, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover label, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover image, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover image,
@@ -1586,8 +1586,8 @@ headerbar .path-bar-box > .linked > button:active,
 .primary-toolbar .path-bar-box > .linked > button:checked,
 headerbar .path-bar-box > .linked > button:checked {
   color: #ffffff;
-  background-color: #417AC3;
-  border-color: transparent;
+  border-color: #457dc4;
+  background-color: #588aca;
   margin: 0px;
 }
 .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active label, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active label, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active image, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active image, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked label, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked label, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked image, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked image,
@@ -2143,7 +2143,7 @@ menu menuitem:hover,
 menu menuitem:disabled, menu menuitem:disabled label,
 .menu menuitem:disabled,
 .menu menuitem:disabled label {
-  color: rgba(255, 255, 255, 0.56);
+  color: rgba(255, 255, 255, 0.3);
 }
 menu menuitem arrow,
 .menu menuitem arrow {
@@ -2243,6 +2243,11 @@ popover.background > toolbar {
   border-style: none;
   background-color: transparent;
 }
+popover label:disabled,
+popover.background label:disabled {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 popover button,
 popover .linked button,
 popover.background button,
@@ -5203,18 +5208,18 @@ panel-toplevel.background na-tray-applet {
   border-radius: 2px;
 }
 .thunar toolbar > toolitem box.horizontal > entry, .thunar .inline-toolbar > toolitem box.horizontal > entry {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
 }
 .thunar toolbar > toolitem box.horizontal > entry label, .thunar .inline-toolbar > toolitem box.horizontal > entry label, .thunar toolbar > toolitem box.horizontal > entry image, .thunar .inline-toolbar > toolitem box.horizontal > entry image {
   color: inherit;
 }
 .thunar toolbar > toolitem box.horizontal > entry:hover, .thunar .inline-toolbar > toolitem box.horizontal > entry:hover {
-  color: rgba(226, 231, 236, 0.8);
-  background-color: #3d4c69;
-  border-color: transparent;
+  border-color: #232c3b;
+  color: rgba(231, 235, 240, 0.8);
+  background-color: #475879;
   margin: 0px;
 }
 .thunar toolbar > toolitem box.horizontal > entry:hover label, .thunar .inline-toolbar > toolitem box.horizontal > entry:hover label, .thunar toolbar > toolitem box.horizontal > entry:hover image, .thunar .inline-toolbar > toolitem box.horizontal > entry:hover image {
@@ -5236,18 +5241,18 @@ panel-toplevel.background na-tray-applet {
   margin: 0 2px;
 }
 .thunar .linked.path-bar > button {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
 }
 .thunar .linked.path-bar > button label, .thunar .linked.path-bar > button image {
   color: inherit;
 }
 .thunar .linked.path-bar > button:hover {
-  color: rgba(226, 231, 236, 0.8);
-  background-color: #3d4c69;
-  border-color: transparent;
+  border-color: #232c3b;
+  color: rgba(231, 235, 240, 0.8);
+  background-color: #475879;
   margin: 0px;
 }
 .thunar .linked.path-bar > button:hover label, .thunar .linked.path-bar > button:hover image {
@@ -5255,26 +5260,26 @@ panel-toplevel.background na-tray-applet {
 }
 .thunar .linked.path-bar > button:active, .thunar .linked.path-bar > button:checked {
   color: #ffffff;
-  background-color: #417AC3;
-  border-color: transparent;
+  border-color: #457dc4;
+  background-color: #588aca;
   margin: 0px;
 }
 .thunar .linked.path-bar > button:active label, .thunar .linked.path-bar > button:active image, .thunar .linked.path-bar > button:checked label, .thunar .linked.path-bar > button:checked image {
   color: inherit;
 }
 .thunar .linked.path-bar > button.toggle {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
 }
 .thunar .linked.path-bar > button.toggle label, .thunar .linked.path-bar > button.toggle image {
   color: inherit;
 }
 .thunar .linked.path-bar > button.toggle:hover {
-  color: rgba(226, 231, 236, 0.8);
-  background-color: #3d4c69;
-  border-color: transparent;
+  border-color: #232c3b;
+  color: rgba(231, 235, 240, 0.8);
+  background-color: #475879;
   margin: 0px;
 }
 .thunar .linked.path-bar > button.toggle:hover label, .thunar .linked.path-bar > button.toggle:hover image {
@@ -5282,8 +5287,8 @@ panel-toplevel.background na-tray-applet {
 }
 .thunar .linked.path-bar > button.toggle:active, .thunar .linked.path-bar > button.toggle:checked {
   color: #ffffff;
-  background-color: #417AC3;
-  border-color: transparent;
+  border-color: #457dc4;
+  background-color: #588aca;
   margin: 0px;
 }
 .thunar .linked.path-bar > button.toggle:active label, .thunar .linked.path-bar > button.toggle:active image, .thunar .linked.path-bar > button.toggle:checked label, .thunar .linked.path-bar > button.toggle:checked image {
@@ -5456,9 +5461,9 @@ panel-toplevel.background button:checked:not(#tasklist-button) {
 }
 
 headerbar.windowhandle box.path-buttons-box:not(.vertical) {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
   border: 1px solid #232c3b;
   border-right: 0;
@@ -5632,9 +5637,9 @@ filechooser .nautilus-desktop:backdrop,
 }
 filechooser box.path-bar-box,
 .nautilus-window box.path-bar-box {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
   border: 1px solid #232c3b;
   border-radius: 4px;
@@ -5657,8 +5662,8 @@ filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:l
 .nautilus-window box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child:hover,
 .nautilus-window box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child {
   color: #ffffff;
-  background-color: #417AC3;
-  border-color: transparent;
+  border-color: #457dc4;
+  background-color: #588aca;
   margin: 0px;
 }
 filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child:hover label, filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child:hover image, filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child label, filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child image,
@@ -5670,7 +5675,8 @@ filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:l
 }
 filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child:active,
 .nautilus-window box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child:active {
-  background-color: #5286c8;
+  background-color: #8fb1dc;
+  border-color: #80a6d7;
 }
 filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button.text-button:only-child,
 .nautilus-window box.path-bar-box > .linked.nautilus-path-bar > button.image-button.text-button:only-child {
@@ -5688,9 +5694,9 @@ filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button.t
 }
 filechooser box.path-bar-box .path-bar,
 .nautilus-window box.path-bar-box .path-bar {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
 }
 filechooser box.path-bar-box .path-bar label, filechooser box.path-bar-box .path-bar image,
@@ -5700,9 +5706,9 @@ filechooser box.path-bar-box .path-bar label, filechooser box.path-bar-box .path
 }
 filechooser box.path-bar-box .path-bar button.text-button,
 .nautilus-window box.path-bar-box .path-bar button.text-button {
-  color: rgba(226, 231, 236, 0.58);
+  color: rgba(226, 231, 236, 0.8);
   background-color: #303C52;
-  border-color: transparent;
+  border-color: #232c3b;
   margin: 0px;
 }
 filechooser box.path-bar-box .path-bar button.text-button label, filechooser box.path-bar-box .path-bar button.text-button image,
@@ -5712,9 +5718,9 @@ filechooser box.path-bar-box .path-bar button.text-button label, filechooser box
 }
 filechooser box.path-bar-box .path-bar button.text-button:hover,
 .nautilus-window box.path-bar-box .path-bar button.text-button:hover {
-  color: rgba(226, 231, 236, 0.8);
-  background-color: #3d4c69;
-  border-color: transparent;
+  border-color: #232c3b;
+  color: rgba(231, 235, 240, 0.8);
+  background-color: #475879;
   margin: 0px;
 }
 filechooser box.path-bar-box .path-bar button.text-button:hover label, filechooser box.path-bar-box .path-bar button.text-button:hover image,
@@ -5726,8 +5732,8 @@ filechooser box.path-bar-box .path-bar button.text-button:active, filechooser bo
 .nautilus-window box.path-bar-box .path-bar button.text-button:active,
 .nautilus-window box.path-bar-box .path-bar button.text-button:checked {
   color: #ffffff;
-  background-color: #417AC3;
-  border-color: transparent;
+  border-color: #457dc4;
+  background-color: #588aca;
   margin: 0px;
 }
 filechooser box.path-bar-box .path-bar button.text-button:active label, filechooser box.path-bar-box .path-bar button.text-button:active image, filechooser box.path-bar-box .path-bar button.text-button:checked label, filechooser box.path-bar-box .path-bar button.text-button:checked image,
