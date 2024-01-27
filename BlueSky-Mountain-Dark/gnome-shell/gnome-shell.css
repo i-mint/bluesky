@@ -2109,8 +2109,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 .app-folder-dialog .folder-name-container .folder-name-label:focus, .app-folder-dialog .folder-name-container .folder-name-entry:focus {
   background-color: #2B5489;
-  selection-background-color: #d4ab76;
-  selected-color: #2B5489;
+  selection-background-color: #223042;
+  selected-color: #ffffff;
 }
 .app-folder-dialog .folder-name-container .folder-name-entry {
   width: 300px;
