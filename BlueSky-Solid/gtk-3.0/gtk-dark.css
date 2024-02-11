@@ -5430,7 +5430,7 @@ panel-toplevel.background button:checked:not(#tasklist-button) {
 }
 
 #whiskermenu-window stack {
-  background: image(#1F2A3B);
+  background: image(#29384F);
 }
 
 .unified headerbar.windowhandle {
