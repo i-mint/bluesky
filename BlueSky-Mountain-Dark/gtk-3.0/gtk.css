@@ -5184,18 +5184,19 @@ panel-toplevel.background na-tray-applet {
 }
 .thunar notebook tabs > tab button.flat image {
   background-color: transparent;
-  border: 0.5px solid transparent;
-  border-radius: 2px;
+  border-radius: 50%;
+  padding: 4px;
+  opacity: 0.7;
 }
 .thunar notebook tabs > tab button.flat:hover image {
-  background-color: #384b6a;
-  border: 0.5px solid #2b3b52;
-  border-radius: 2px;
+  background-color: #344763;
+  padding: 4px;
+  opacity: 1;
 }
 .thunar notebook tabs > tab button.flat:active image {
-  background-color: #3f5577;
-  border: 0.5px solid #2f3f59;
-  border-radius: 2px;
+  background-color: #465e85;
+  padding: 4px;
+  opacity: 1;
 }
 .thunar toolbar > toolitem box.horizontal > entry, .thunar .inline-toolbar > toolitem box.horizontal > entry {
   color: rgba(226, 231, 236, 0.8);
