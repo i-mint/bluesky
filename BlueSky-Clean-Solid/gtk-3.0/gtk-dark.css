@@ -898,7 +898,7 @@ toolbar.inline-toolbar toolbutton:only-child > button.flat, .inline-toolbar tool
 .nautilus-window box.path-bar-box .path-bar button.text-button:hover,
 .nautilus-window box.path-bar-box .path-bar button.text-button:active,
 .nautilus-window box.path-bar-box .path-bar button.text-button:checked,
-.nautilus-window box.path-bar-box .path-bar button.text-button:disabled, .xfce4-panel.panel #pulseaudio-button menu .linked button, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:hover, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:active, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:checked, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:disabled, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button,
+.nautilus-window box.path-bar-box .path-bar button.text-button:disabled, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:hover, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:active, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:checked, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:disabled, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button,
 .primary-toolbar .linked:not(.vertical).path-bar > button,
 headerbar .linked:not(.vertical).path-bar > button,
 .primary-toolbar .path-bar-box > .linked > button,
@@ -908,7 +908,7 @@ headerbar .path-bar-box > .linked > button, spinbutton:not(.vertical) button, sp
 }
 
 .budgie-popover:not(.csd) .linked button:first-child, filechooser box.path-bar-box .path-bar button.text-button:first-child,
-.nautilus-window box.path-bar-box .path-bar button.text-button:first-child, .xfce4-panel.panel #pulseaudio-button menu .linked button:first-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:first-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child,
+.nautilus-window box.path-bar-box .path-bar button.text-button:first-child, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:first-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:first-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child,
 .primary-toolbar .linked:not(.vertical).path-bar > button:first-child,
 headerbar .linked:not(.vertical).path-bar > button:first-child,
 .primary-toolbar .path-bar-box > .linked > button:first-child,
@@ -917,7 +917,7 @@ headerbar .path-bar-box > .linked > button:first-child, spinbutton:not(.vertical
   border-bottom-left-radius: 4px;
 }
 .budgie-popover:not(.csd) .linked button:last-child, filechooser box.path-bar-box .path-bar button.text-button:last-child,
-.nautilus-window box.path-bar-box .path-bar button.text-button:last-child, .xfce4-panel.panel #pulseaudio-button menu .linked button:last-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:last-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child,
+.nautilus-window box.path-bar-box .path-bar button.text-button:last-child, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:last-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:last-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child,
 .primary-toolbar .linked:not(.vertical).path-bar > button:last-child,
 headerbar .linked:not(.vertical).path-bar > button:last-child,
 .primary-toolbar .path-bar-box > .linked > button:last-child,
@@ -927,7 +927,7 @@ headerbar .path-bar-box > .linked > button:last-child, spinbutton:not(.vertical)
   border-right-style: solid;
 }
 .budgie-popover:not(.csd) .linked button:only-child, filechooser box.path-bar-box .path-bar button.text-button:only-child,
-.nautilus-window box.path-bar-box .path-bar button.text-button:only-child, .xfce4-panel.panel #pulseaudio-button menu .linked button:only-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:only-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child,
+.nautilus-window box.path-bar-box .path-bar button.text-button:only-child, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:only-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:only-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child,
 .primary-toolbar .linked:not(.vertical).path-bar > button:only-child,
 headerbar .linked:not(.vertical).path-bar > button:only-child,
 .primary-toolbar .path-bar-box > .linked > button:only-child,
@@ -5378,20 +5378,24 @@ panel-toplevel.background button:checked:not(#tasklist-button) {
 .xfce4-panel.panel wnck-pager:hover, .xfce4-panel.panel wnck-pager:selected {
   background-color: #2B5489;
 }
-.xfce4-panel.panel #pulseaudio-button menu .linked button {
-  color: rgba(226, 231, 236, 0.8);
-  background-color: #303C52;
-  border-color: #232c3b;
+.xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: none;
 }
-.xfce4-panel.panel #pulseaudio-button menu .linked button:hover {
-  color: rgba(226, 231, 236, 0.8);
-  background-color: #41516f;
-  border-color: #232c3b;
-}
-.xfce4-panel.panel #pulseaudio-button menu .linked button:active {
+.xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button image, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button {
   color: #ffffff;
-  background-color: #3262a0;
-  border-color: #2c568d;
+  padding: 2px;
+}
+.xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:first-child {
+  border-right: 0px solid rgba(0, 0, 0, 0.4);
+}
+.xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:last-child {
+  border-left: 0px solid rgba(0, 0, 0, 0.4);
+}
+.xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:active image {
+  border-radius: 4px;
+  background-color: #3465a4;
 }
 
 #whiskermenu-window stack {
