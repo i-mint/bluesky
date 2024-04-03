@@ -3485,7 +3485,6 @@ calendar {
   color: #0F1423;
   border: 1px solid #cdd1f3;
   border-radius: 4px;
-  padding: 2px;
 }
 calendar:selected {
   border-radius: 4px;
