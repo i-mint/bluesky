@@ -1,9 +1,10 @@
 [X-GNOME-Metatheme]
 Name=BlueSky-Solid-Dark
 Type=X-GNOME-Metatheme
-Comment= BlueSky Gtk Themes 
+Comment= BlueSky Solid Dark Gtk Themes 
 Encoding=UTF-8
 GtkTheme=BlueSky-Solid-Dark
+MetacityTheme=BlueSky-Solid-Dark
 IconTheme=Papirus-Dark
 CursorTheme=Adwaita
 CursorSize=24

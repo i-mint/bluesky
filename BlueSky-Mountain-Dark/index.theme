@@ -1,9 +1,10 @@
 [X-GNOME-Metatheme]
 Name=BlueSky-Mountain-Dark
 Type=X-GNOME-Metatheme
-Comment= BlueSky Gtk Themes 
+Comment= BlueSky Mountain Dark Gtk Themes 
 Encoding=UTF-8
 GtkTheme=BlueSky-Mountain-Dark
+MetacityTheme=BlueSky-Mountain-Dark
 IconTheme=Papirus-Dark
 CursorTheme=Adwaita
 CursorSize=24

@@ -4,6 +4,7 @@ Type=X-GNOME-Metatheme
 Comment= BlueSky Gtk Themes 
 Encoding=UTF-8
 GtkTheme=BlueSky
+MetacityTheme=BlueSky
 IconTheme=Papirus
 CursorTheme=Adwaita
 CursorSize=24
