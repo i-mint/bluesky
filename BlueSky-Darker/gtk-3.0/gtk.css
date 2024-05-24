@@ -4241,7 +4241,7 @@ headerbar button.titlebutton.minimize:active,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, .view:selected, .view:selected:focus,
+.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
 .view text:selected,
 textview text:selected,
 .view text:selected:focus,
@@ -4260,7 +4260,7 @@ row:selected label, label:selected, .nemo-window .sidebar .view.cell:active, .ne
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, .view:selected, .view:selected:focus,
+.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
 .view text:selected,
 textview text:selected,
 .view text:selected:focus,
@@ -4277,7 +4277,7 @@ modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:
 }
 row:selected label:backdrop, label:backdrop:selected, .nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, .view:backdrop:selected,
+.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
 .view text:backdrop:selected,
 textview text:backdrop:selected,
 textview text:backdrop:selected:focus, .view text selection:backdrop,
@@ -4293,7 +4293,7 @@ modelbutton.flat:selected arrow:backdrop, row:backdrop:selected, calendar:backdr
 }
 row:selected label:disabled, label:disabled:selected, .nemo-window .sidebar .view.cell:disabled:active, .nemo-window .sidebar iconview.cell:disabled:active, .nemo-window .sidebar .view.cell:disabled:selected, .nemo-window .sidebar iconview.cell:disabled:selected, .nemo-window .sidebar row.cell:disabled:active, .nemo-window .sidebar row.cell:disabled:selected, .nemo-window .sidebar row.cell:disabled:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:disabled:selected, filechooser placessidebar.sidebar row.sidebar-row:disabled:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:disabled:active:hover, .thunar notebook .view:disabled:selected, .thunar notebook iconview:disabled:selected, .view:disabled:selected,
+.nautilus-window placessidebar.sidebar row.sidebar-row:disabled:active:hover, .thunar notebook .view:disabled:selected, .thunar notebook iconview:disabled:selected, .caja-side-pane .frame treeview.view:disabled:selected, .view:disabled:selected,
 .view text:disabled:selected,
 textview text:disabled:selected,
 textview text:disabled:selected:focus, .view text selection:disabled,
@@ -4310,7 +4310,7 @@ modelbutton.flat:selected arrow:disabled, row:disabled:selected, calendar:disabl
 
 .nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, .view:backdrop:selected,
+.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
 .view text:backdrop:selected,
 textview text:backdrop:selected,
 textview text:backdrop:selected:focus, .view text selection:backdrop,
@@ -4575,6 +4575,12 @@ button.nautilus-circular-button.image-button label {
 
 .caja-side-pane .frame {
   border-width: 1px 0 0;
+}
+.caja-side-pane .frame treeview.view {
+  color: #E4E7EA;
+}
+.caja-side-pane .frame treeview.view:backdrop {
+  opacity: 0.5;
 }
 
 .caja-notebook .frame {
@@ -5032,26 +5038,56 @@ panel-toplevel.background #PanelApplet image {
   color: #ffffff;
 }
 .mate-panel-menu-bar button label, .mate-panel-menu-bar button image,
-.mate-panel-menu-bar #tasklist-button label,
-.mate-panel-menu-bar #tasklist-button image,
 panel-toplevel.background button label,
-panel-toplevel.background button image,
-panel-toplevel.background #tasklist-button label,
-panel-toplevel.background #tasklist-button image {
+panel-toplevel.background button image {
   color: inherit;
+}
+.mate-panel-menu-bar #tasklist-button,
+panel-toplevel.background #tasklist-button {
+  background-color: #050a11;
+  border-radius: 2px;
+  border: 2px solid transparent;
+}
+.mate-panel-menu-bar #tasklist-button label, .mate-panel-menu-bar #tasklist-button image, .mate-panel-menu-bar #tasklist-button,
+panel-toplevel.background #tasklist-button label,
+panel-toplevel.background #tasklist-button image,
+panel-toplevel.background #tasklist-button {
+  color: rgba(255, 255, 255, 0.5);
+}
+.mate-panel-menu-bar #tasklist-button:hover,
+panel-toplevel.background #tasklist-button:hover {
+  background-color: rgba(255, 255, 255, 0.23);
+  border-radius: 2px;
+}
+.mate-panel-menu-bar #tasklist-button:hover label, .mate-panel-menu-bar #tasklist-button:hover image, .mate-panel-menu-bar #tasklist-button:hover,
+panel-toplevel.background #tasklist-button:hover label,
+panel-toplevel.background #tasklist-button:hover image,
+panel-toplevel.background #tasklist-button:hover {
+  color: #ffffff;
+}
+.mate-panel-menu-bar #tasklist-button:active, .mate-panel-menu-bar #tasklist-button:checked,
+panel-toplevel.background #tasklist-button:active,
+panel-toplevel.background #tasklist-button:checked {
+  background-color: #417AC3;
+  border-radius: 2px;
+}
+.mate-panel-menu-bar #tasklist-button:active label, .mate-panel-menu-bar #tasklist-button:active image, .mate-panel-menu-bar #tasklist-button:active, .mate-panel-menu-bar #tasklist-button:checked label, .mate-panel-menu-bar #tasklist-button:checked image, .mate-panel-menu-bar #tasklist-button:checked,
+panel-toplevel.background #tasklist-button:active label,
+panel-toplevel.background #tasklist-button:active image,
+panel-toplevel.background #tasklist-button:active,
+panel-toplevel.background #tasklist-button:checked label,
+panel-toplevel.background #tasklist-button:checked image,
+panel-toplevel.background #tasklist-button:checked {
+  color: #ffffff;
 }
 .mate-panel-menu-bar .wnck-pager,
 panel-toplevel.background .wnck-pager {
-  color: gray;
-  background-color: black;
+  background-color: rgba(65, 122, 195, 0.45);
+  border-right: 2px solid #050a11;
 }
-.mate-panel-menu-bar .wnck-pager:hover,
-panel-toplevel.background .wnck-pager:hover {
-  background-color: #0b1624;
-}
-.mate-panel-menu-bar .wnck-pager:selected,
+.mate-panel-menu-bar .wnck-pager:hover, .mate-panel-menu-bar .wnck-pager:selected,
+panel-toplevel.background .wnck-pager:hover,
 panel-toplevel.background .wnck-pager:selected {
-  color: #8fb0db;
   background-color: #417AC3;
 }
 .mate-panel-menu-bar na-tray-applet,
