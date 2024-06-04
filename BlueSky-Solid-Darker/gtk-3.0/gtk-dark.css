@@ -5025,6 +5025,47 @@ MsdOsdWindow.background.osd .trough {
   border-radius: 5px;
 }
 
+.mate-panel-menu-bar button:not(#tasklist-button),
+panel-toplevel.background button:not(#tasklist-button) {
+  background-color: #050a11;
+  border-radius: 4px;
+  border-color: transparent;
+}
+.mate-panel-menu-bar button:not(#tasklist-button) label,
+panel-toplevel.background button:not(#tasklist-button) label, .mate-panel-menu-bar button:not(#tasklist-button) image,
+panel-toplevel.background button:not(#tasklist-button) image, .mate-panel-menu-bar button:not(#tasklist-button),
+panel-toplevel.background button:not(#tasklist-button) {
+  color: #ffffff;
+}
+.mate-panel-menu-bar button:hover:not(#tasklist-button),
+panel-toplevel.background button:hover:not(#tasklist-button) {
+  background-color: rgba(255, 255, 255, 0.23);
+  border-radius: 4px;
+  border-color: transparent;
+}
+.mate-panel-menu-bar button:hover:not(#tasklist-button) label,
+panel-toplevel.background button:hover:not(#tasklist-button) label, .mate-panel-menu-bar button:hover:not(#tasklist-button) image,
+panel-toplevel.background button:hover:not(#tasklist-button) image, .mate-panel-menu-bar button:hover:not(#tasklist-button),
+panel-toplevel.background button:hover:not(#tasklist-button) {
+  color: #ffffff;
+}
+.mate-panel-menu-bar button:active:not(#tasklist-button),
+panel-toplevel.background button:active:not(#tasklist-button), .mate-panel-menu-bar button:checked:not(#tasklist-button),
+panel-toplevel.background button:checked:not(#tasklist-button) {
+  background-color: #2B5489;
+  border-radius: 4px;
+  border-color: transparent;
+}
+.mate-panel-menu-bar button:active:not(#tasklist-button) label,
+panel-toplevel.background button:active:not(#tasklist-button) label, .mate-panel-menu-bar button:active:not(#tasklist-button) image,
+panel-toplevel.background button:active:not(#tasklist-button) image, .mate-panel-menu-bar button:active:not(#tasklist-button),
+panel-toplevel.background button:active:not(#tasklist-button), .mate-panel-menu-bar button:checked:not(#tasklist-button) label,
+panel-toplevel.background button:checked:not(#tasklist-button) label, .mate-panel-menu-bar button:checked:not(#tasklist-button) image,
+panel-toplevel.background button:checked:not(#tasklist-button) image, .mate-panel-menu-bar button:checked:not(#tasklist-button),
+panel-toplevel.background button:checked:not(#tasklist-button) {
+  color: #ffffff;
+}
+
 .mate-panel-menu-bar, .mate-panel-menu-bar menubar,
 panel-toplevel.background,
 panel-toplevel.background menubar {
@@ -5038,16 +5079,12 @@ panel-toplevel.background #PanelApplet label,
 panel-toplevel.background #PanelApplet image {
   color: #ffffff;
 }
-.mate-panel-menu-bar button label, .mate-panel-menu-bar button image,
-panel-toplevel.background button label,
-panel-toplevel.background button image {
-  color: inherit;
-}
 .mate-panel-menu-bar #tasklist-button,
 panel-toplevel.background #tasklist-button {
   background-color: #050a11;
   border-radius: 2px;
-  border: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-color: transparent;
 }
 .mate-panel-menu-bar #tasklist-button label, .mate-panel-menu-bar #tasklist-button image, .mate-panel-menu-bar #tasklist-button,
 panel-toplevel.background #tasklist-button label,
@@ -5059,6 +5096,8 @@ panel-toplevel.background #tasklist-button {
 panel-toplevel.background #tasklist-button:hover {
   background-color: rgba(255, 255, 255, 0.23);
   border-radius: 2px;
+  border-color: transparent;
+  border-bottom: 2px solid transparent;
 }
 .mate-panel-menu-bar #tasklist-button:hover label, .mate-panel-menu-bar #tasklist-button:hover image, .mate-panel-menu-bar #tasklist-button:hover,
 panel-toplevel.background #tasklist-button:hover label,
@@ -5071,6 +5110,8 @@ panel-toplevel.background #tasklist-button:active,
 panel-toplevel.background #tasklist-button:checked {
   background-color: #2B5489;
   border-radius: 2px;
+  border-color: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 .mate-panel-menu-bar #tasklist-button:active label, .mate-panel-menu-bar #tasklist-button:active image, .mate-panel-menu-bar #tasklist-button:active, .mate-panel-menu-bar #tasklist-button:checked label, .mate-panel-menu-bar #tasklist-button:checked image, .mate-panel-menu-bar #tasklist-button:checked,
 panel-toplevel.background #tasklist-button:active label,
@@ -5403,8 +5444,7 @@ panel-toplevel.background na-tray-applet {
 .xfce4-panel.panel #xfce4-power-manager-plugin,
 .xfce4-panel.panel #indicator-button,
 .xfce4-panel.panel #whiskermenu-button,
-.xfce4-panel.panel .flat, .mate-panel-menu-bar button:not(#tasklist-button),
-panel-toplevel.background button:not(#tasklist-button) {
+.xfce4-panel.panel .flat {
   color: #ffffff;
   background-color: #050a11;
   border: 3px solid transparent;
@@ -5418,8 +5458,7 @@ panel-toplevel.background button:not(#tasklist-button) {
 .xfce4-panel.panel #xfce4-power-manager-plugin:hover,
 .xfce4-panel.panel #indicator-button:hover,
 .xfce4-panel.panel #whiskermenu-button:hover,
-.xfce4-panel.panel .flat:hover, .mate-panel-menu-bar button:hover:not(#tasklist-button),
-panel-toplevel.background button:hover:not(#tasklist-button) {
+.xfce4-panel.panel .flat:hover {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.23);
   border: 3px solid transparent;
@@ -5433,8 +5472,7 @@ panel-toplevel.background button:hover:not(#tasklist-button) {
 .xfce4-panel.panel #xfce4-power-manager-plugin:active,
 .xfce4-panel.panel #indicator-button:active,
 .xfce4-panel.panel #whiskermenu-button:active,
-.xfce4-panel.panel .flat:active, .mate-panel-menu-bar button:active:not(#tasklist-button),
-panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.panel #sn-button:checked,
+.xfce4-panel.panel .flat:active, .xfce4-panel.panel #sn-button:checked,
 .xfce4-panel.panel #clock-button:checked,
 .xfce4-panel.panel #xfce4-notification-plugin:checked,
 .xfce4-panel.panel #pulseaudio-button:checked,
@@ -5442,8 +5480,7 @@ panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.pane
 .xfce4-panel.panel #xfce4-power-manager-plugin:checked,
 .xfce4-panel.panel #indicator-button:checked,
 .xfce4-panel.panel #whiskermenu-button:checked,
-.xfce4-panel.panel .flat:checked, .mate-panel-menu-bar button:checked:not(#tasklist-button),
-panel-toplevel.background button:checked:not(#tasklist-button) {
+.xfce4-panel.panel .flat:checked {
   color: #ffffff;
   background-color: #2B5489;
   border: 3px solid #050a11;
