@@ -5042,6 +5042,10 @@ panel-toplevel.background #PanelApplet label,
 panel-toplevel.background #PanelApplet image {
   color: #ffffff;
 }
+.mate-panel-menu-bar button:not(#tasklist-button),
+panel-toplevel.background button:not(#tasklist-button) {
+  font-weight: bold;
+}
 .mate-panel-menu-bar #tasklist-button,
 panel-toplevel.background #tasklist-button {
   background-color: #050a11;
