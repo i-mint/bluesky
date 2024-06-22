@@ -4533,13 +4533,6 @@ button.nautilus-circular-button.image-button label {
   text-shadow: none;
 }
 
-.caja-notebook {
-  border-top: 1px solid #cdd1f3;
-}
-
-.caja-side-pane .frame {
-  border-width: 1px 0 0;
-}
 .caja-side-pane .frame treeview.view {
   color: #E4E7EA;
 }
@@ -4548,7 +4541,56 @@ button.nautilus-circular-button.image-button label {
 }
 
 .caja-notebook .frame {
-  border-width: 0 0 1px;
+  border-width: 0 0 1px 0;
+  border-color: #cdd1f3;
+}
+
+.caja-side-pane .frame {
+  border-width: 1px 0 0;
+}
+
+.caja-notebook {
+  border-top: 1px solid #cdd1f3;
+}
+
+.caja-navigation-window toolbar.horizontal.primary-toolbar, .caja-navigation-window .horizontal.primary-toolbar.inline-toolbar {
+  border-bottom: 1px solid #cdd1f3;
+}
+
+entry.caja-location-entry {
+  background: image(#ffffff);
+  border-color: #cdd1f3;
+  box-shadow: none;
+  border-radius: 4px;
+}
+entry.caja-location-entry label, entry.caja-location-entry image, entry.caja-location-entry {
+  color: #0F1423;
+}
+entry.caja-location-entry:focus {
+  background: image(#417AC3);
+  border-color: #417AC3;
+  background-clip: padding-box;
+  box-shadow: none;
+  border-radius: 4px;
+}
+entry.caja-location-entry:focus label, entry.caja-location-entry:focus image, entry.caja-location-entry:focus {
+  color: #ffffff;
+}
+entry.caja-location-entry selection:focus {
+  background-color: #0F1423;
+}
+entry.caja-location-entry selection:focus label, entry.caja-location-entry selection:focus image, entry.caja-location-entry selection:focus {
+  color: #ffffff;
+}
+entry.caja-location-entry:backdrop {
+  opacity: 0.85;
+}
+entry.caja-location-entry:disabled {
+  border-color: #cdd1f3;
+  background: image(transparent);
+}
+entry.caja-location-entry:disabled label, entry.caja-location-entry:disabled image, entry.caja-location-entry:disabled {
+  color: rgba(226, 231, 236, 0.35);
 }
 
 .open-document-selector-treeview.view, iconview.open-document-selector-treeview {
