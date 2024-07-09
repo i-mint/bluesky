@@ -1265,21 +1265,6 @@ searchbar {
   border-width: 0 0 1px;
   padding: 3px;
 }
-searchbar entry.search {
-  background-color: #29384F;
-  border-color: #444e58;
-}
-searchbar entry.search:focus {
-  color: #E4E7EA;
-  border-color: #2B5489;
-}
-searchbar entry.search:focus label, searchbar entry.search:focus image {
-  color: inherit;
-}
-searchbar entry.search:focus selection {
-  color: #ffffff;
-  background-color: #2B5489;
-}
 
 actionbar {
   padding: 6px;
@@ -1501,7 +1486,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   color: white;
   background-color: #F27835;
 }
-.primary-toolbar entry.warning selection, headerbar entry.warning selection, headerbar entry.warning selection:focus {
+.primary-toolbar entry.warning selection, headerbar entry.warning selection {
   background-color: white;
   color: #F27835;
 }
@@ -1514,7 +1499,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   color: white;
   background-color: #FC4138;
 }
-.primary-toolbar entry.error selection, headerbar entry.error selection, headerbar entry.error selection:focus {
+.primary-toolbar entry.error selection, headerbar entry.error selection {
   background-color: white;
   color: #FC4138;
 }
@@ -4373,22 +4358,22 @@ modelbutton.flat:selected arrow:backdrop, row:backdrop:selected, calendar:backdr
   color: rgba(255, 255, 255, 0.67);
 }
 
-.nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection, .primary-toolbar entry selection:focus, headerbar entry selection:focus {
-  background-color: #223042;
+entry.caja-location-entry selection:focus, entry.caja-location-entry selection, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection, .primary-toolbar entry selection, headerbar entry selection {
+  background-color: #E4E7EA;
 }
-row:selected label, label:selected, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection, .primary-toolbar entry selection:focus, headerbar entry selection:focus {
-  color: #ffffff;
+entry.caja-location-entry selection:focus, entry.caja-location-entry selection, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection, .primary-toolbar entry selection, headerbar entry selection {
+  color: #1F2A3B;
 }
-row:selected label:backdrop, label:backdrop:selected, .nemo-window .nemo-window-pane widget.entry:backdrop:selected, entry selection:backdrop {
-  color: rgba(255, 255, 255, 0.67);
+entry.caja-location-entry selection:backdrop, .nemo-window .nemo-window-pane widget.entry:backdrop:selected, entry selection:backdrop {
+  color: rgba(31, 42, 59, 0.67);
 }
-row:selected label:disabled, label:disabled:selected, .nemo-window .nemo-window-pane widget.entry:disabled:selected, entry selection:disabled {
-  color: #9198a1;
+entry.caja-location-entry selection:disabled, .nemo-window .nemo-window-pane widget.entry:disabled:selected, entry selection:disabled {
+  color: #828993;
 }
 
-.nemo-window .nemo-window-pane widget.entry:backdrop:selected, entry selection:backdrop {
-  background-color: rgba(34, 48, 66, 0.67);
-  color: rgba(255, 255, 255, 0.67);
+entry.caja-location-entry selection:backdrop, .nemo-window .nemo-window-pane widget.entry:backdrop:selected, entry selection:backdrop {
+  background-color: rgba(228, 231, 234, 0.67);
+  color: rgba(31, 42, 59, 0.67);
 }
 
 *:selected {
@@ -4624,11 +4609,8 @@ entry.caja-location-entry:focus {
 entry.caja-location-entry:focus label, entry.caja-location-entry:focus image, entry.caja-location-entry:focus {
   color: #ffffff;
 }
-entry.caja-location-entry selection:focus {
-  background-color: #E4E7EA;
-}
-entry.caja-location-entry selection:focus label, entry.caja-location-entry selection:focus image, entry.caja-location-entry selection:focus {
-  color: #1F2A3B;
+entry.caja-location-entry selection:focus label, entry.caja-location-entry selection:focus image, entry.caja-location-entry selection label, entry.caja-location-entry selection image {
+  color: inherit;
 }
 entry.caja-location-entry:backdrop {
   opacity: 0.85;
