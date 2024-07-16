@@ -1572,7 +1572,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher):not(.nautilus-path-bar) button:not(:last-child):not(:only-child), headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher):not(.nautilus-path-bar) button:not(:last-child):not(:only-child) {
   margin-right: 1px;
 }
-.primary-toolbar .linked:not(.vertical):not(.path-bar) > button, headerbar .linked:not(.vertical):not(.path-bar) > button {
+.primary-toolbar .linked:not(.vertical):not(.path-bar):not(.nautilus-path-bar) > button, headerbar .linked:not(.vertical):not(.path-bar):not(.nautilus-path-bar) > button {
   border-radius: 4px;
   border-style: solid;
 }
@@ -5810,6 +5810,8 @@ filechooser box.path-bar-box label, filechooser box.path-bar-box image,
 filechooser box.path-bar-box > .linked.nautilus-path-bar > button,
 .nautilus-window box.path-bar-box > .linked.nautilus-path-bar > button {
   border-radius: 0;
+  border: none;
+  border-right: 1px solid #232c3b;
 }
 filechooser box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child,
 .nautilus-window box.path-bar-box > .linked.nautilus-path-bar > button.image-button:last-child {
