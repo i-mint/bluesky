@@ -4609,6 +4609,16 @@ button.nautilus-circular-button.image-button label {
 .caja-notebook {
   border-top: 1px solid #192331;
 }
+.caja-notebook tabs > tab.reorderable-page > box > button.flat image {
+  padding: 3px;
+  border-radius: 999px;
+}
+.caja-notebook tabs > tab.reorderable-page > box > button.flat:hover image {
+  background-color: #344763;
+}
+.caja-notebook tabs > tab.reorderable-page > box > button.flat:active image {
+  background-color: #465e85;
+}
 
 .caja-navigation-window toolbar.horizontal.primary-toolbar, .caja-navigation-window .horizontal.primary-toolbar.inline-toolbar {
   border-bottom: 1px solid #192331;
