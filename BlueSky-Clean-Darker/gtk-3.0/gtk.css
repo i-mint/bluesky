@@ -1240,6 +1240,16 @@ toolbar:not(.inline-toolbar) .linked > entry,
   border-style: solid;
   border-image: linear-gradient(to bottom, #0d1928, rgba(4, 8, 13, 0.93)) 1 0 1 0;
 }
+.primary-toolbar toolitem > grid > button.flat.scale,
+.primary-toolbar toolitem > grid > button.flat {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.primary-toolbar toolitem > button.raised.toggle.popup {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
 .inline-toolbar {
   background-color: #e6e8f9;
   border-style: solid;
@@ -3616,7 +3626,7 @@ filechooserbutton:drop(active) {
 
 .sidebar {
   border-style: none;
-  background-color: rgba(22, 31, 39, 0.93);
+  background-color: #fafbfe;
 }
 stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:dir(ltr), .sidebar.left, .sidebar.left:dir(rtl) {
   border-right: 1px solid #cdd1f3;
@@ -4235,7 +4245,7 @@ headerbar button.titlebutton.minimize:active,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
+.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, paned.gedit-side-panel-paned treeview.view:selected:hover, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
 .view text:selected,
 textview text:selected,
 .view text:selected:focus,
@@ -4254,7 +4264,7 @@ row:selected label, label:selected, .nemo-window .sidebar .view.cell:active, .ne
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
+.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, paned.gedit-side-panel-paned treeview.view:selected:hover, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
 .view text:selected,
 textview text:selected,
 .view text:selected:focus,
@@ -4271,7 +4281,7 @@ modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:
 }
 row:selected label:backdrop, label:backdrop:selected, .nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
+.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, paned.gedit-side-panel-paned treeview.view:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
 .view text:backdrop:selected,
 textview text:backdrop:selected,
 textview text:backdrop:selected:focus, .view text selection:backdrop,
@@ -4287,7 +4297,7 @@ modelbutton.flat:selected arrow:backdrop, row:backdrop:selected, calendar:backdr
 }
 row:selected label:disabled, label:disabled:selected, .nemo-window .sidebar .view.cell:disabled:active, .nemo-window .sidebar iconview.cell:disabled:active, .nemo-window .sidebar .view.cell:disabled:selected, .nemo-window .sidebar iconview.cell:disabled:selected, .nemo-window .sidebar row.cell:disabled:active, .nemo-window .sidebar row.cell:disabled:selected, .nemo-window .sidebar row.cell:disabled:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:disabled:selected, filechooser placessidebar.sidebar row.sidebar-row:disabled:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:disabled:active:hover, .thunar notebook .view:disabled:selected, .thunar notebook iconview:disabled:selected, .caja-side-pane .frame treeview.view:disabled:selected, .view:disabled:selected,
+.nautilus-window placessidebar.sidebar row.sidebar-row:disabled:active:hover, .thunar notebook .view:disabled:selected, .thunar notebook iconview:disabled:selected, paned.gedit-side-panel-paned treeview.view:disabled:selected, .caja-side-pane .frame treeview.view:disabled:selected, .view:disabled:selected,
 .view text:disabled:selected,
 textview text:disabled:selected,
 textview text:disabled:selected:focus, .view text selection:disabled,
@@ -4304,7 +4314,7 @@ modelbutton.flat:selected arrow:disabled, row:disabled:selected, calendar:disabl
 
 .nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
+.nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, paned.gedit-side-panel-paned treeview.view:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
 .view text:backdrop:selected,
 textview text:backdrop:selected,
 textview text:backdrop:selected:focus, .view text selection:backdrop,
@@ -4761,35 +4771,11 @@ entry.caja-location-entry:disabled label, entry.caja-location-entry:disabled ima
   border-right-width: 1px;
 }
 
-paned.gedit-side-panel-paned treeview.view {
-  background-color: rgba(22, 31, 39, 0.93);
-  color: #E4E7EA;
-  border-color: #cdd1f3;
-}
 paned.gedit-side-panel-paned treeview.view:hover {
-  background: rgba(35, 49, 62, 0.93);
-  box-shadow: none;
-  border: none;
-}
-paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, paned.gedit-side-panel-paned treeview.view:selected:hover, paned.gedit-side-panel-paned treeview.view:checked, paned.gedit-side-panel-paned treeview.view:checked:focus, paned.gedit-side-panel-paned treeview.view:checked:hover {
-  background: image(#417AC3);
-  box-shadow: none;
-  text-shadow: none;
-  -gtk-icon-shadow: none;
-}
-paned.gedit-side-panel-paned treeview.view:selected label, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus label, paned.gedit-side-panel-paned treeview.view:selected:focus, paned.gedit-side-panel-paned treeview.view:selected:hover label, paned.gedit-side-panel-paned treeview.view:selected:hover, paned.gedit-side-panel-paned treeview.view:checked label, paned.gedit-side-panel-paned treeview.view:checked, paned.gedit-side-panel-paned treeview.view:checked:focus label, paned.gedit-side-panel-paned treeview.view:checked:focus, paned.gedit-side-panel-paned treeview.view:checked:hover label, paned.gedit-side-panel-paned treeview.view:checked:hover {
-  color: #ffffff;
-}
-paned.gedit-side-panel-paned treeview.view:selected:backdrop, paned.gedit-side-panel-paned treeview.view:selected:focus:backdrop, paned.gedit-side-panel-paned treeview.view:selected:hover:backdrop, paned.gedit-side-panel-paned treeview.view:checked:backdrop, paned.gedit-side-panel-paned treeview.view:checked:focus:backdrop, paned.gedit-side-panel-paned treeview.view:checked:hover:backdrop {
-  box-shadow: none;
-  border: none;
-}
-paned.gedit-side-panel-paned treeview.view:selected:backdrop label, paned.gedit-side-panel-paned treeview.view:selected:backdrop, paned.gedit-side-panel-paned treeview.view:selected:focus:backdrop label, paned.gedit-side-panel-paned treeview.view:selected:focus:backdrop, paned.gedit-side-panel-paned treeview.view:selected:hover:backdrop label, paned.gedit-side-panel-paned treeview.view:selected:hover:backdrop, paned.gedit-side-panel-paned treeview.view:checked:backdrop label, paned.gedit-side-panel-paned treeview.view:checked:backdrop, paned.gedit-side-panel-paned treeview.view:checked:focus:backdrop label, paned.gedit-side-panel-paned treeview.view:checked:focus:backdrop, paned.gedit-side-panel-paned treeview.view:checked:hover:backdrop label, paned.gedit-side-panel-paned treeview.view:checked:hover:backdrop {
-  color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 paned.gedit-side-panel-paned treeview.view:backdrop {
-  color: rgba(228, 231, 234, 0.67);
-  border-color: #cdd1f3;
+  color: rgba(15, 20, 35, 0.7);
 }
 paned.gedit-side-panel-paned treeview.view.separator {
   color: rgba(13, 18, 23, 0.93);
