@@ -4241,11 +4241,10 @@ headerbar button.titlebutton.minimize:active,
   background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-dark.png"), url("assets/titlebutton-minimize-active-dark@2.png"));
 }
 
-.nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, .nemo-window .sidebar row.cell:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
+.nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, .nemo-window .sidebar row.cell:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, paned.gedit-side-panel-paned treeview.view:selected:hover, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
+.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
 .view text:selected,
 textview text:selected,
 .view text:selected:focus,
@@ -4260,11 +4259,10 @@ modelbutton.flat:selected,
 modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:focus, row:selected, calendar:selected {
   background-color: #417AC3;
 }
-row:selected label, label:selected, .nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, .nemo-window .sidebar row.cell:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
+row:selected label, label:selected, .nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, .nemo-window .sidebar row.cell:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, paned.gedit-side-panel-paned treeview.view:selected:hover, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
+.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
 .view text:selected,
 textview text:selected,
 .view text:selected:focus,
@@ -4773,6 +4771,9 @@ entry.caja-location-entry:disabled label, entry.caja-location-entry:disabled ima
 
 paned.gedit-side-panel-paned treeview.view:hover {
   background-color: rgba(0, 0, 0, 0.05);
+}
+paned.gedit-side-panel-paned treeview.view:selected:hover {
+  background-color: #3b6eb0;
 }
 paned.gedit-side-panel-paned treeview.view:backdrop {
   color: rgba(15, 20, 35, 0.7);
@@ -5698,27 +5699,27 @@ filechooser placessidebar.sidebar row.sidebar-row:disabled, filechooser placessi
 .nautilus-window placessidebar.sidebar row.sidebar-row:disabled image {
   color: rgba(228, 231, 234, 0.4);
 }
-filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-label,
+filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-label,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-label,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected .sidebar-icon,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected .sidebar-label,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-label,
 .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon,
 .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover .sidebar-label {
   color: inherit;
 }
-filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-label:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-icon:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-label:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-label:backdrop, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon:backdrop, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-label:backdrop,
+filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-label:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-icon:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-label:backdrop, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon:backdrop, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-label:backdrop,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon:backdrop,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-label:backdrop,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected .sidebar-icon:backdrop,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected .sidebar-label:backdrop,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon:backdrop,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-label:backdrop,
 .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon:backdrop,
 .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover .sidebar-label:backdrop {
   color: rgba(255, 255, 255, 0.67);
+}
+filechooser placessidebar.sidebar row.sidebar-row:selected:hover,
+.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover {
+  background-color: #3b6eb0;
 }
 filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button,
 .nautilus-window placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button {
