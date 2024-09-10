@@ -2667,6 +2667,9 @@ switch, switch slider {
 popover switch image, popover switch {
   color: transparent;
 }
+switch image {
+  color: transparent;
+}
 switch.restricts {
   background-image: -gtk-scaled(url("assets/switch-restricts-dark.png"), url("assets/switch-restricts-dark@2.png"));
 }
@@ -4349,8 +4352,6 @@ entry.caja-location-entry selection:backdrop, .nemo-window .nemo-window-pane wid
 
 *:selected {
   background-color: #2B5489;
-}
-*:selected label, *:selected image, *:selected {
   color: #ffffff;
 }
 
