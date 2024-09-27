@@ -5656,6 +5656,13 @@ panel-toplevel.background na-tray-applet {
   background: image(#F2F3FC);
 }
 
+.mousepad .popup menu > menuitem:hover check:checked {
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-selected.png"), url("assets/checkbox-checked-selected@2.png"));
+}
+.mousepad .popup menu > menuitem:hover radio:checked {
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-selected.png"), url("assets/radio-checked-selected@2.png"));
+}
+
 .unified headerbar.windowhandle {
   margin: 0 6px;
   padding: 0;
