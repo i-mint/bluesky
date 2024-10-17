@@ -10,11 +10,11 @@ title_shadow_inactive=false
 
 title_horizontal_offset=3
 
-active_text_color=#b8bdc3
-active_text_shadow_color=#b8bdc3
+active_text_color=#b8bec5
+active_text_shadow_color=#b8bec5
 
-inactive_text_color=#53575f
-inactive_text_shadow_color=#53575f
+inactive_text_color=#55606e
+inactive_text_shadow_color=#55606e
 
 shadow_delta_height=2
 shadow_delta_width=0
