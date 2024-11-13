@@ -1446,7 +1446,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 }
 
 .primary-toolbar entry, headerbar entry {
-  color: rgba(13, 19, 38, 0.46);
+  color: rgba(13, 19, 38, 0.9);
   border-color: #2c568b;
   background-color: rgba(255, 255, 255, 0.89);
 }
@@ -1467,6 +1467,10 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 }
 .primary-toolbar entry:focus image, headerbar entry:focus image {
   color: #ffffff;
+}
+.primary-toolbar entry selection, headerbar entry selection {
+  color: #ffffff;
+  background-color: rgba(13, 19, 38, 0.9);
 }
 .primary-toolbar entry:disabled, headerbar entry:disabled {
   color: rgba(13, 19, 38, 0.45);
@@ -1873,7 +1877,7 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   color: rgba(13, 19, 38, 0.3);
 }
 .primary-toolbar combobox > .linked > button.combo, headerbar combobox > .linked > button.combo {
-  color: rgba(13, 19, 38, 0.46);
+  color: rgba(13, 19, 38, 0.9);
   border-color: #2c568b;
   background-color: rgba(255, 255, 255, 0.89);
 }
@@ -4337,10 +4341,10 @@ modelbutton.flat:selected arrow:backdrop, row:backdrop:selected, calendar:backdr
   color: rgba(255, 255, 255, 0.67);
 }
 
-entry.caja-location-entry selection:focus, entry.caja-location-entry selection, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection, .primary-toolbar entry selection, headerbar entry selection {
+entry.caja-location-entry selection:focus, entry.caja-location-entry selection, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection {
   background-color: #0F1423;
 }
-entry.caja-location-entry selection:focus, entry.caja-location-entry selection, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection, .primary-toolbar entry selection, headerbar entry selection {
+entry.caja-location-entry selection:focus, entry.caja-location-entry selection, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, entry selection:focus, entry selection {
   color: #ffffff;
 }
 entry.caja-location-entry selection:backdrop, .nemo-window .nemo-window-pane widget.entry:backdrop:selected, entry selection:backdrop {
@@ -4439,6 +4443,10 @@ terminal-window notebook > header.top button,
 }
 .nautilus-window .searchbar-container {
   margin-top: -1px;
+}
+.nautilus-window entry.search selection, .nautilus-window entry.search selection:focus {
+  color: #ffffff;
+  background-color: rgba(13, 19, 38, 0.9);
 }
 
 .nautilus-window notebook,
@@ -5274,7 +5282,7 @@ panel-toplevel.background na-tray-applet {
   border-radius: 3px;
   padding-left: 4px;
   padding-right: 4px;
-  color: rgba(13, 19, 38, 0.46);
+  color: rgba(13, 19, 38, 0.9);
   border-color: #2c568b;
   background-color: rgba(255, 255, 255, 0.89);
 }
@@ -5423,18 +5431,10 @@ panel-toplevel.background na-tray-applet {
 }
 .thunar toolbar > toolitem box.horizontal > entry, .thunar .inline-toolbar > toolitem box.horizontal > entry {
   color: rgba(13, 19, 38, 0.9);
-  background-color: #90ACD0;
-  border-color: #7c9dc8;
+  border-color: #2c568b;
+  background-color: rgba(255, 255, 255, 0.89);
 }
-.thunar toolbar > toolitem box.horizontal > entry label, .thunar .inline-toolbar > toolitem box.horizontal > entry label, .thunar toolbar > toolitem box.horizontal > entry image, .thunar .inline-toolbar > toolitem box.horizontal > entry image {
-  color: inherit;
-}
-.thunar toolbar > toolitem box.horizontal > entry:hover, .thunar .inline-toolbar > toolitem box.horizontal > entry:hover {
-  color: rgba(8, 12, 25, 0.9);
-  background-color: #a5bcd9;
-  border-color: #7c9dc8;
-}
-.thunar toolbar > toolitem box.horizontal > entry:hover label, .thunar .inline-toolbar > toolitem box.horizontal > entry:hover label, .thunar toolbar > toolitem box.horizontal > entry:hover image, .thunar .inline-toolbar > toolitem box.horizontal > entry:hover image {
+.thunar toolbar > toolitem box.horizontal > entry image, .thunar .inline-toolbar > toolitem box.horizontal > entry image, .thunar toolbar > toolitem box.horizontal > entry image:hover {
   color: inherit;
 }
 .thunar toolbar > toolitem box.horizontal > entry:active, .thunar .inline-toolbar > toolitem box.horizontal > entry:active, .thunar toolbar > toolitem box.horizontal > entry:checked, .thunar .inline-toolbar > toolitem box.horizontal > entry:checked, .thunar toolbar > toolitem box.horizontal > entry:focus, .thunar .inline-toolbar > toolitem box.horizontal > entry:focus {
@@ -5444,6 +5444,14 @@ panel-toplevel.background na-tray-applet {
 }
 .thunar toolbar > toolitem box.horizontal > entry:active image, .thunar .inline-toolbar > toolitem box.horizontal > entry:active image, .thunar toolbar > toolitem box.horizontal > entry:active image:hover, .thunar toolbar > toolitem box.horizontal > entry:checked image, .thunar .inline-toolbar > toolitem box.horizontal > entry:checked image, .thunar toolbar > toolitem box.horizontal > entry:checked image:hover, .thunar toolbar > toolitem box.horizontal > entry:focus image, .thunar .inline-toolbar > toolitem box.horizontal > entry:focus image, .thunar toolbar > toolitem box.horizontal > entry:focus image:hover {
   color: inherit;
+}
+.thunar toolbar > toolitem box.horizontal > entry selection, .thunar .inline-toolbar > toolitem box.horizontal > entry selection,
+.thunar toolbar > toolitem box.horizontal > entry selection:focus {
+  color: #ffffff;
+  background-color: rgba(13, 19, 38, 0.9);
+}
+.thunar toolbar > toolitem box.horizontal > entry:backdrop label, .thunar .inline-toolbar > toolitem box.horizontal > entry:backdrop label, .thunar toolbar > toolitem box.horizontal > entry:backdrop image, .thunar .inline-toolbar > toolitem box.horizontal > entry:backdrop image, .thunar toolbar > toolitem box.horizontal > entry:backdrop, .thunar .inline-toolbar > toolitem box.horizontal > entry:backdrop {
+  color: rgba(13, 19, 38, 0.5);
 }
 .thunar toolbar .linked.path-bar > button.path-bar-button.toggle, .thunar toolbar .linked.path-bar > button.path-bar-button, .thunar .inline-toolbar .linked.path-bar > button.path-bar-button {
   color: rgba(13, 19, 38, 0.9);
@@ -5506,9 +5514,6 @@ panel-toplevel.background na-tray-applet {
   color: rgba(13, 19, 38, 0.26);
 }
 .thunar toolbar > toolbutton > button.flat.image-button:not(:disabled):not(:checked):backdrop image, .thunar .inline-toolbar > toolbutton > button.flat.image-button:not(:disabled):not(:checked):backdrop image, .thunar toolbar > toolbutton > button.flat.image-button:not(:disabled):not(:checked):backdrop, .thunar .inline-toolbar > toolbutton > button.flat.image-button:not(:disabled):not(:checked):backdrop {
-  color: rgba(13, 19, 38, 0.5);
-}
-.thunar toolbar > box.horizontal > entry:backdrop label, .thunar .inline-toolbar > box.horizontal > entry:backdrop label, .thunar toolbar > box.horizontal > entry:backdrop image, .thunar .inline-toolbar > box.horizontal > entry:backdrop image, .thunar toolbar > box.horizontal > entry:backdrop, .thunar .inline-toolbar > box.horizontal > entry:backdrop {
   color: rgba(13, 19, 38, 0.5);
 }
 .thunar toolbar:backdrop, .thunar .inline-toolbar:backdrop {
