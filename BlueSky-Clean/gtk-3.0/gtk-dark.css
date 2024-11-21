@@ -729,18 +729,6 @@ button.circular.radio.text-button {
   padding: 4px 6px;
 }
 
-headerbar.windowhandle viewswitcher {
-  margin: 6px 0;
-}
-headerbar.windowhandle viewswitcher > box > button.radio {
-  margin: -3px 0;
-  padding: 0;
-}
-headerbar.windowhandle viewswitcher > box > button.radio:active, headerbar.windowhandle viewswitcher > box > button.radio:checked {
-  border-color: #2B5489;
-  box-shadow: none;
-}
-
 .inline-toolbar toolbutton > button {
   color: #E4E7EA;
   border-color: #192331;
@@ -967,7 +955,7 @@ toolbar.inline-toolbar toolbutton:only-child > button.flat, .inline-toolbar tool
 .nautilus-window box.horizontal.path-bar-box .path-bar button.text-button:checked,
 .nautilus-window box.horizontal.path-bar-box .path-bar button.text-button:disabled, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:hover, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:active, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:checked, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:disabled, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button,
 .primary-toolbar .linked:not(.vertical).path-bar > button,
-headerbar .linked:not(.vertical).path-bar > button, spinbutton:not(.vertical) button, spinbutton:not(.vertical) entry, .linked:not(.vertical) > entry, .linked:not(.vertical) > entry:focus, .inline-toolbar button, .inline-toolbar button:backdrop, .linked:not(.vertical) > button, .linked:not(.vertical) > button:hover, .linked:not(.vertical) > button:active, .linked:not(.vertical) > button:checked, headerbar.windowhandle viewswitcher > box > button.radio {
+headerbar .linked:not(.vertical).path-bar > button, spinbutton:not(.vertical) button, spinbutton:not(.vertical) entry, .linked:not(.vertical) > entry, .linked:not(.vertical) > entry:focus, .inline-toolbar button, .inline-toolbar button:backdrop, .linked:not(.vertical) > button, .linked:not(.vertical) > button:hover, .linked:not(.vertical) > button:active, .linked:not(.vertical) > button:checked {
   border-radius: 0;
   border-right-style: none;
 }
@@ -975,14 +963,14 @@ headerbar .linked:not(.vertical).path-bar > button, spinbutton:not(.vertical) bu
 .budgie-popover:not(.csd) .linked button:first-child, filechooser box.horizontal.path-bar-box .path-bar button.text-button:first-child,
 .nautilus-window box.horizontal.path-bar-box .path-bar button.text-button:first-child, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:first-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:first-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child,
 .primary-toolbar .linked:not(.vertical).path-bar > button:first-child,
-headerbar .linked:not(.vertical).path-bar > button:first-child, spinbutton:not(.vertical) button:first-child, spinbutton:not(.vertical) entry:first-child, .linked:not(.vertical) > entry:first-child, .inline-toolbar button:first-child, .inline-toolbar button:first-child:backdrop, .linked:not(.vertical) > button:first-child, headerbar.windowhandle viewswitcher > box > button.radio:first-child {
+headerbar .linked:not(.vertical).path-bar > button:first-child, spinbutton:not(.vertical) button:first-child, spinbutton:not(.vertical) entry:first-child, .linked:not(.vertical) > entry:first-child, .inline-toolbar button:first-child, .inline-toolbar button:first-child:backdrop, .linked:not(.vertical) > button:first-child {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 .budgie-popover:not(.csd) .linked button:last-child, filechooser box.horizontal.path-bar-box .path-bar button.text-button:last-child,
 .nautilus-window box.horizontal.path-bar-box .path-bar button.text-button:last-child, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:last-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:last-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child,
 .primary-toolbar .linked:not(.vertical).path-bar > button:last-child,
-headerbar .linked:not(.vertical).path-bar > button:last-child, spinbutton:not(.vertical) button:last-child, spinbutton:not(.vertical) entry:last-child, .linked:not(.vertical) > entry:last-child, .inline-toolbar button:last-child, .inline-toolbar button:last-child:backdrop, .linked:not(.vertical) > button:last-child, headerbar.windowhandle viewswitcher > box > button.radio:last-child {
+headerbar .linked:not(.vertical).path-bar > button:last-child, spinbutton:not(.vertical) button:last-child, spinbutton:not(.vertical) entry:last-child, .linked:not(.vertical) > entry:last-child, .inline-toolbar button:last-child, .inline-toolbar button:last-child:backdrop, .linked:not(.vertical) > button:last-child {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   border-right-style: solid;
@@ -990,7 +978,7 @@ headerbar .linked:not(.vertical).path-bar > button:last-child, spinbutton:not(.v
 .budgie-popover:not(.csd) .linked button:only-child, filechooser box.horizontal.path-bar-box .path-bar button.text-button:only-child,
 .nautilus-window box.horizontal.path-bar-box .path-bar button.text-button:only-child, .xfce4-panel.panel #pulseaudio-button > window.popup.csd .linked button:only-child, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:only-child, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child,
 .primary-toolbar .linked:not(.vertical).path-bar > button:only-child,
-headerbar .linked:not(.vertical).path-bar > button:only-child, spinbutton:not(.vertical) button:only-child, spinbutton:not(.vertical) entry:only-child, .linked:not(.vertical) > entry:only-child, .inline-toolbar button:only-child, .inline-toolbar button:only-child:backdrop, .linked:not(.vertical) > button:only-child, headerbar.windowhandle viewswitcher > box > button.radio:only-child {
+headerbar .linked:not(.vertical).path-bar > button:only-child, spinbutton:not(.vertical) button:only-child, spinbutton:not(.vertical) entry:only-child, .linked:not(.vertical) > entry:only-child, .inline-toolbar button:only-child, .inline-toolbar button:only-child:backdrop, .linked:not(.vertical) > button:only-child {
   border-radius: 4px;
   border-style: solid;
 }
@@ -1421,6 +1409,31 @@ headerbar:last-child, headerbar:last-child:backdrop {
 }
 .maximized headerbar:last-child, .tiled headerbar:last-child, .maximized headerbar:last-child:backdrop, .tiled headerbar:last-child:backdrop {
   border-radius: 0;
+}
+headerbar.windowhandle viewswitcher > box > button {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+headerbar.windowhandle viewswitcher > box > button > stack > box {
+  padding: 0 18px;
+}
+headerbar.windowhandle viewswitcher > box > button > stack > box.wide {
+  font-size: 1em;
+}
+headerbar.windowhandle viewswitcher > box > button > stack > box.narrow {
+  font-size: 0.75em;
+}
+headerbar.windowhandle viewswitcher > box > button > stack > box.narrow image {
+  margin-top: 4px;
+}
+headerbar.windowhandle viewswitcher > box > button > stack > box.narrow label {
+  margin-bottom: 4px;
+}
+headerbar.windowhandle viewswitcher > box > button:checked {
+  font-weight: bold;
 }
 
 window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, window.csd > .titlebar:not(headerbar), window.csd > .titlebar:not(headerbar):backdrop {
