@@ -1314,7 +1314,7 @@ headerbar:backdrop,
 }
 .csd headerbar:backdrop,
 .csd .titlebar:backdrop:not(headerbar) {
-  background-color: #0e1c2e;
+  background-color: rgba(14, 28, 46, 0.93);
 }
 headerbar .title,
 .titlebar:not(headerbar) .title {
