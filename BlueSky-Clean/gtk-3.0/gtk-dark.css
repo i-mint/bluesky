@@ -4262,7 +4262,7 @@ headerbar button.titlebutton.minimize:active,
   background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-dark.png"), url("assets/titlebutton-minimize-active-dark@2.png"));
 }
 
-.nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, .nemo-window .sidebar row.cell:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
+.nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
@@ -4280,7 +4280,7 @@ modelbutton.flat:selected,
 modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:focus, row:selected, calendar:selected {
   background-color: #2B5489;
 }
-row:selected label, label:selected, .nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, .nemo-window .sidebar row.cell:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
+row:selected label, label:selected, .nemo-window .sidebar .view.cell:active, .nemo-window .sidebar iconview.cell:active, .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar row.cell:active, .nemo-window .sidebar row.cell:selected, filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover, .thunar notebook .view:selected, .thunar notebook iconview:selected, paned.gedit-side-panel-paned treeview.view:selected, paned.gedit-side-panel-paned treeview.view:selected:focus, .caja-side-pane .frame treeview.view:selected, .view:selected, .view:selected:focus,
@@ -4298,7 +4298,7 @@ modelbutton.flat:selected,
 modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:focus, row:selected, calendar:selected {
   color: #ffffff;
 }
-row:selected label:backdrop, label:backdrop:selected, .nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
+row:selected label:backdrop, label:backdrop:selected, .nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, paned.gedit-side-panel-paned treeview.view:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
 .view text:backdrop:selected,
@@ -4314,7 +4314,7 @@ modelbutton.flat:backdrop:selected,
 modelbutton.flat:selected arrow:backdrop, row:backdrop:selected, calendar:backdrop:selected {
   color: rgba(255, 255, 255, 0.67);
 }
-row:selected label:disabled, label:disabled:selected, .nemo-window .sidebar .view.cell:disabled:active, .nemo-window .sidebar iconview.cell:disabled:active, .nemo-window .sidebar .view.cell:disabled:selected, .nemo-window .sidebar iconview.cell:disabled:selected, .nemo-window .sidebar row.cell:disabled:active, .nemo-window .sidebar row.cell:disabled:selected, .nemo-window .sidebar row.cell:disabled:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:disabled:selected, filechooser placessidebar.sidebar row.sidebar-row:disabled:active:hover,
+row:selected label:disabled, label:disabled:selected, .nemo-window .sidebar .view.cell:disabled:active, .nemo-window .sidebar iconview.cell:disabled:active, .nemo-window .sidebar .view.cell:disabled:selected, .nemo-window .sidebar iconview.cell:disabled:selected, .nemo-window .sidebar row.cell:disabled:active, .nemo-window .sidebar row.cell:disabled:selected, filechooser placessidebar.sidebar row.sidebar-row:disabled:selected, filechooser placessidebar.sidebar row.sidebar-row:disabled:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:active:hover, .thunar notebook .view:disabled:selected, .thunar notebook iconview:disabled:selected, paned.gedit-side-panel-paned treeview.view:disabled:selected, .caja-side-pane .frame treeview.view:disabled:selected, .view:disabled:selected,
 .view text:disabled:selected,
@@ -4331,7 +4331,7 @@ modelbutton.flat:selected arrow:disabled, row:disabled:selected, calendar:disabl
   color: #95aac4;
 }
 
-.nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
+.nemo-window .sidebar .view.cell:backdrop:active, .nemo-window .sidebar iconview.cell:backdrop:active, .nemo-window .sidebar .view.cell:backdrop:selected, .nemo-window .sidebar iconview.cell:backdrop:selected, .nemo-window .sidebar row.cell:backdrop:active, .nemo-window .sidebar row.cell:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:selected, filechooser placessidebar.sidebar row.sidebar-row:backdrop:active:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:selected,
 .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop:active:hover, .thunar notebook .view:backdrop:selected, .thunar notebook iconview:backdrop:selected, paned.gedit-side-panel-paned treeview.view:backdrop:selected, .caja-side-pane .frame treeview.view:backdrop:selected, .view:backdrop:selected,
 .view text:backdrop:selected,
@@ -4636,6 +4636,10 @@ button.nautilus-circular-button.image-button label {
 .caja-side-pane .frame treeview.view {
   color: #E4E7EA;
 }
+.caja-side-pane .frame treeview.view:selected:hover {
+  color: #ffffff;
+  background-color: #274c7b;
+}
 .caja-side-pane .frame treeview.view:backdrop {
   opacity: 0.5;
 }
@@ -4796,6 +4800,7 @@ paned.gedit-side-panel-paned treeview.view:hover {
   background-color: rgba(255, 255, 255, 0.03);
 }
 paned.gedit-side-panel-paned treeview.view:selected:hover {
+  color: #ffffff;
   background-color: #274c7b;
 }
 paned.gedit-side-panel-paned treeview.view:backdrop {
@@ -5358,9 +5363,13 @@ panel-toplevel.background na-tray-applet {
   background-color: rgba(22, 31, 39, 0.93);
   color: #E4E7EA;
 }
-.thunar .sidebar .view.cell:selected, .thunar .sidebar iconview.cell:selected, .thunar .sidebar .view.cell:selected:hover {
+.thunar .sidebar .view.cell:selected, .thunar .sidebar iconview.cell:selected {
   background: #2B5489;
   color: #ffffff;
+}
+.thunar .sidebar .view.cell:selected:hover, .thunar .sidebar iconview.cell:selected:hover {
+  color: #ffffff;
+  background-color: #274c7b;
 }
 .thunar .sidebar .view.cell:hover, .thunar .sidebar iconview.cell:hover, .thunar .sidebar .view.cell:active, .thunar .sidebar iconview.cell:active {
   background-color: rgba(33, 47, 59, 0.93);
@@ -5716,6 +5725,7 @@ filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sideb
 }
 filechooser placessidebar.sidebar row.sidebar-row:selected:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover {
+  color: #ffffff;
   background-color: #274c7b;
 }
 filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button,
@@ -5976,6 +5986,10 @@ filechooser stack .linked > button.popup.toggle:hover, filechooser stack .linked
 }
 .nemo-window .sidebar .view.cell:hover:backdrop, .nemo-window .sidebar iconview.cell:hover:backdrop, .nemo-window .sidebar row.cell:hover:backdrop {
   color: rgba(228, 231, 234, 0.78);
+}
+.nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar iconview.cell:selected:hover, .nemo-window .sidebar row.cell:selected:hover {
+  color: #ffffff;
+  background-color: #274c7b;
 }
 .nemo-window .sidebar .view.cell:selected:backdrop:hover, .nemo-window .sidebar iconview.cell:selected:backdrop:hover, .nemo-window .sidebar row.cell:selected:backdrop:hover {
   color: rgba(255, 255, 255, 0.67);
