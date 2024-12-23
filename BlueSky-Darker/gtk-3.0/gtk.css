@@ -1445,6 +1445,10 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   background-image: linear-gradient(to bottom, rgba(8, 15, 24, 0.93), rgba(8, 15, 24, 0.93));
 }
 
+.csd headerbar headerbar, .csd headerbar headerbar:backdrop {
+  background-color: transparent;
+}
+
 .primary-toolbar:not(.libreoffice-toolbar) separator, headerbar separator.titlebutton,
 .titlebar:not(headerbar) separator.titlebutton {
   min-width: 1px;
@@ -6036,6 +6040,7 @@ filechooser stack .linked > button.popup.toggle:hover, filechooser stack .linked
   color: rgba(228, 231, 234, 0.78);
 }
 .nemo-window .sidebar .view.cell:selected:hover, .nemo-window .sidebar iconview.cell:selected:hover, .nemo-window .sidebar row.cell:selected:hover {
+  color: #ffffff;
   background-color: #3b6eb0;
 }
 .nemo-window .sidebar .view.cell:selected:backdrop:hover, .nemo-window .sidebar iconview.cell:selected:backdrop:hover, .nemo-window .sidebar row.cell:selected:backdrop:hover {
