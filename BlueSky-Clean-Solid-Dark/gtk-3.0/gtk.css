@@ -23,7 +23,7 @@
   background-color: transparent;
 }
 .background.csd.unified {
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 *:disabled {
@@ -7365,6 +7365,21 @@ popover.combo scrollbar.vertical:dir(ltr) {
 popover.combo scrollbar.vertical:dir(rtl) {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+}
+
+window.csd.unified:not(.solid-csd):not(.fullscreen) headerbar {
+  box-shadow: inset 0 1px #102034;
+}
+window.csd.unified:not(.solid-csd):not(.fullscreen) headerbar.selection-mode {
+  box-shadow: none;
+}
+window.csd.unified:not(.solid-csd):not(.fullscreen) > decoration-overlay {
+  box-shadow: inset 0 1px #102034;
+}
+window.csd.unified:not(.solid-csd):not(.fullscreen):not(.tiled):not(.tiled-top):not(.tiled-bottom):not(.tiled-left):not(.tiled-right):not(.maximized),
+window.csd.unified:not(.solid-csd):not(.fullscreen):not(.tiled):not(.tiled-top):not(.tiled-bottom):not(.tiled-left):not(.tiled-right):not(.maximized) > decoration,
+window.csd.unified:not(.solid-csd):not(.fullscreen):not(.tiled):not(.tiled-top):not(.tiled-bottom):not(.tiled-left):not(.tiled-right):not(.maximized) > decoration-overlay {
+  border-radius: 6px;
 }
 
 @define-color theme_fg_color #E4E7EA;
