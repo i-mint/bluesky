@@ -123,16 +123,20 @@ StScrollBar StBin#trough {
   background-color: rgba(31, 42, 59, 0.1);
   border-radius: 8px;
 }
-StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
-  border-radius: 4px;
+StScrollBar StButton#vhandle,
+StScrollBar StButton#hhandle {
+  border-radius: 8px;
   background-color: #747e8d;
   border: 0px solid;
   margin: 0px;
 }
-StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
-  background-color: #616d7e;
+StScrollBar StButton#vhandle:hover,
+StScrollBar StButton#hhandle:hover {
+  background-color: #78a1d5;
 }
-StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
+StScrollBar StButton#vhandle:active, StScrollBar StButton#vhandle:hover:active,
+StScrollBar StButton#hhandle:active,
+StScrollBar StButton#hhandle:hover:active {
   background-color: #2B5489;
 }
 
