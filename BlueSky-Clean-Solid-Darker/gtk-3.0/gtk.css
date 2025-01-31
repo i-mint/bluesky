@@ -6174,20 +6174,20 @@ filechooser placessidebar.sidebar scrollbar,
 }
 filechooser placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
 .nautilus-window placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .nemo-window .sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .caja-side-pane scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
-  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.3);
+  background-image: -gtk-gradient(linear, 0 0, 0 1, color-stop(0, #8fb0db), color-stop(0.2, transparent), color-stop(1, transparent));
 }
 filechooser placessidebar.sidebar scrollbar slider,
 .nautilus-window placessidebar.sidebar scrollbar slider, .nemo-window .sidebar scrollbar slider, .caja-side-pane scrollbar slider {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-image: -gtk-gradient(linear, 0 0, 0 1, color-stop(0, #b5cbe8), color-stop(0.2, transparent), color-stop(1, transparent));
 }
 filechooser placessidebar.sidebar scrollbar slider:hover,
 .nautilus-window placessidebar.sidebar scrollbar slider:hover, .nemo-window .sidebar scrollbar slider:hover, .caja-side-pane scrollbar slider:hover {
-  background-color: white;
+  background-image: -gtk-gradient(linear, 0 0, 0 1, color-stop(0, #b5cbe8), color-stop(0.3, #a2bee2), color-stop(1, #aec6e5));
 }
 filechooser placessidebar.sidebar scrollbar slider:hover:active,
 .nautilus-window placessidebar.sidebar scrollbar slider:hover:active, .nemo-window .sidebar scrollbar slider:hover:active, .caja-side-pane scrollbar slider:hover:active {
-  background-color: #417AC3;
+  background-image: -gtk-gradient(linear, 0 0, 0 1, color-stop(0, #417AC3), color-stop(0.3, #9ab8df), color-stop(1, #a2bee2));
 }
 filechooser placessidebar.sidebar scrollbar slider:disabled,
 .nautilus-window placessidebar.sidebar scrollbar slider:disabled, .nemo-window .sidebar scrollbar slider:disabled, .caja-side-pane scrollbar slider:disabled {
