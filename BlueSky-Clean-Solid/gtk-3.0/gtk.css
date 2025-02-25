@@ -3442,15 +3442,19 @@ separator {
 }
 
 separator.sidebar:dir(ltr), separator.sidebar.left, separator.sidebar.left:dir(rtl), separator.sidebar:dir(rtl), separator.sidebar.right {
-  background-color: #cdd1f3;
+  background-image: linear-gradient(to bottom, #cdd1f3, #cdd1f3);
   border: 0;
 }
 .titlebar separator.sidebar:dir(ltr), .titlebar separator.sidebar.left, .titlebar separator.sidebar.left:dir(rtl), .titlebar separator.sidebar:dir(rtl), .titlebar separator.sidebar.right {
-  background-color: #4d82c7;
+  background-image: linear-gradient(to bottom, #4d82c7, #4d82c7);
   margin: 0;
 }
 separator.sidebar.selection-mode, .selection-mode separator.sidebar {
   background-color: #497fc5;
+}
+
+hdyleaflet:not(.titlebar) > separator {
+  background-image: linear-gradient(to bottom, #cdd1f3, #cdd1f3);
 }
 
 list {
@@ -6096,7 +6100,7 @@ filechooser actionbar label, filechooser actionbar combobox {
 }
 
 .gedit-side-panel-paned > separator {
-  background-image: linear-gradient(to bottom, #e1e3e5, #e1e3e5);
+  background-image: linear-gradient(to bottom, #cdd1f3, #cdd1f3);
 }
 
 .gedit-bottom-panel-paned > separator {
