@@ -1282,7 +1282,7 @@ StScrollBar StButton#hhandle:hover:active {
 }
 .calendar-change-month-back:focus, .calendar-change-month-back:hover, .calendar-change-month-back:active {
   background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 999px;
+  border-radius: 4px;
 }
 .calendar-change-month-back:rtl {
   background-image: url("light-assets/misc/calendar-arrow-right.svg");
@@ -1309,7 +1309,7 @@ StScrollBar StButton#hhandle:hover:active {
 }
 .calendar-change-month-forward:focus, .calendar-change-month-forward:hover, .calendar-change-month-forward:active {
   background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 999px;
+  border-radius: 4px;
 }
 .calendar-change-month-forward:rtl {
   background-image: url("light-assets/misc/calendar-arrow-left.svg");
