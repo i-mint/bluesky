@@ -6726,80 +6726,74 @@ filechooser placessidebar.sidebar scrollbar trough,
 
 .raven-background,
 .raven-header,
-.raven-frame,
 .raven,
 .raven-notifications-view > .raven-background > .frame > list {
   background-color: #F2F3FC;
-  border-radius: 4px;
-}
-.raven-background label, .raven-background image, .raven-background,
-.raven-header label,
-.raven-header image,
-.raven-header,
-.raven-frame label,
-.raven-frame image,
-.raven-frame,
-.raven label,
-.raven image,
-.raven,
-.raven-notifications-view > .raven-background > .frame > list label,
-.raven-notifications-view > .raven-background > .frame > list image,
-.raven-notifications-view > .raven-background > .frame > list {
-  color: #0F1423;
-}
-
-.raven-frame > border {
-  border: none 0 transparent;
-  border-left: 0.2px solid #417AC3;
 }
 
 .raven {
-  border-color: red;
+  padding-left: 6px;
+  padding-right: 6px;
 }
-.raven calendar.raven-calendar {
-  background-color: #e3e3e3;
-  color: #0F1423;
+
+.right frame.raven-frame {
+  margin-left: 32px;
+}
+.right frame.raven-frame > border {
+  border: none;
+  border-left: 1px solid #cdd1f3;
+}
+
+.left frame.raven-frame {
+  margin-right: 32px;
+}
+.left frame.raven-frame > border {
+  border: none;
+  border-right: 1px solid #cdd1f3;
+}
+
+.top frame.raven-frame {
+  margin-bottom: 32px;
+}
+.top frame.raven-frame > border {
+  border: none;
+  border-bottom: 1px solid #cdd1f3;
+}
+
+.bottom frame.raven-frame {
+  margin-top: 32px;
+}
+.bottom frame.raven-frame > border {
+  border: none;
+  border-top: 1px solid #cdd1f3;
+}
+
+frame.raven-frame > border {
+  box-shadow: 0 8px 8px -5px rgba(0, 0, 0, 0.28), 0 6px 6px 2px rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.raven-calendar {
   padding: 4px;
-  border-color: transparent;
 }
-.raven calendar.raven-calendar.button, .raven calendar.raven-calendar.button-focus {
-  background-color: transparent;
+.raven-calendar:indeterminate {
+  color: alpha(currentColor,0.3);
 }
-.raven calendar.raven-calendar:selected {
-  background-color: #417AC3;
+.raven-calendar:selected {
   color: #ffffff;
-  border-bottom: 9px solid transparent;
+  background-color: #417AC3;
+}
+.raven-calendar.header {
+  color: #0F1423;
+  border: none;
   border-radius: 0;
 }
-.raven button {
+.raven-calendar.button, .raven-calendar.button:focus {
+  color: alpha(currentColor,0.5);
+  background-color: transparent;
+}
+.raven-calendar.button:hover, .raven-calendar.button:focus:hover {
   color: #0F1423;
-  border-color: #cdd1f3;
-  background-color: #fafbfe;
-}
-.raven button:backdrop {
-  color: rgba(15, 20, 35, 0.67);
-}
-.raven button label {
-  color: inherit;
-}
-.raven button:hover {
-  color: #0F1423;
-  border-color: #cdd1f3;
-  background-color: #dde0f7;
-}
-.raven button:hover label {
-  color: inherit;
-}
-.raven button:active, .raven button:checked, .raven button:selected {
-  color: #ffffff;
-  border-color: #417AC3;
-  background-color: #417AC3;
-}
-.raven button:active:backdrop, .raven button:checked:backdrop, .raven button:selected:backdrop {
-  color: rgba(255, 255, 255, 0.67);
-}
-.raven button:active label, .raven button:checked label, .raven button:selected label {
-  color: inherit;
+  background-color: transparent;
 }
 
 .budgie-run-dialog {
