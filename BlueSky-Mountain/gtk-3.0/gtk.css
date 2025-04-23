@@ -6326,9 +6326,9 @@ filechooser placessidebar.sidebar scrollbar trough,
 .budgie-popover:not(.csd).background {
   border-radius: 4px;
   background-clip: border-box;
-  border: none;
+  border: 1px solid #cdd1f3;
   color: transparent;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.28), 0 6px 12px 2px rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .budgie-popover:not(.csd) > frame.container,
 .budgie-popover:not(.csd) > frame.container > border {
@@ -6365,7 +6365,6 @@ filechooser placessidebar.sidebar scrollbar trough,
 .budgie-popover:not(.csd) list,
 .budgie-popover:not(.csd) row {
   background-color: #ffffff;
-  border-radius: 4px;
   margin: 0;
   padding: 0;
 }
@@ -6699,7 +6698,7 @@ filechooser placessidebar.sidebar scrollbar trough,
 }
 .workspace-switcher .workspace-item.current-workspace grid {
   background-color: #7fa5d7;
-  border-color: #417AC3;
+  border-color: rgba(0, 0, 0, 0.8);
 }
 .workspace-switcher .workspace-layout {
   background-color: transparent;
