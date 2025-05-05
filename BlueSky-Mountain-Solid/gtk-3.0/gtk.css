@@ -6846,22 +6846,26 @@ frame.raven-frame > border {
   border-radius: 4px;
   background-clip: border-box;
 }
-.budgie-notification-window button {
+.budgie-notification-window button.close {
   border-radius: 4px;
+  margin-top: 7px;
+  margin-right: 2px;
+  border-color: transparent;
+  background-color: transparent;
+  background-image: none;
 }
-
-.budgie-settings-window list.sidebar > row label, .budgie-settings-window list.sidebar > row {
+.budgie-notification-window button.close:hover {
   color: #0F1423;
+  border-color: #cdd1f3;
+  background-color: #dde0f7;
 }
-.budgie-settings-window list.sidebar > row:checked label, .budgie-settings-window list.sidebar > row:checked,
-.budgie-settings-window list.sidebar > row:selected label,
-.budgie-settings-window list.sidebar > row:selected {
+.budgie-notification-window button.close:active {
   color: #ffffff;
+  border-color: #417AC3;
+  background-color: #417AC3;
 }
-.budgie-settings-window list label.dim-label, .budgie-settings-window list label.separator, .budgie-settings-window list headerbar label.subtitle, headerbar .budgie-settings-window list label.subtitle,
-.budgie-settings-window list .titlebar:not(headerbar) label.subtitle,
-.titlebar:not(headerbar) .budgie-settings-window list label.subtitle {
-  color: #0F1423;
+.budgie-notification-window button.close:active:backdrop {
+  color: rgba(255, 255, 255, 0.67);
 }
 
 #panel_window {
