@@ -1182,6 +1182,9 @@ toolbar.vertical separator, .vertical.inline-toolbar separator {
 .osd toolbar, .osd .inline-toolbar {
   background-color: transparent;
 }
+.csd toolbar label, .csd toolbar, toolbar label, .inline-toolbar label, toolbar, .inline-toolbar {
+  color: rgba(226, 231, 236, 0.8);
+}
 toolbar.osd, .osd.inline-toolbar {
   padding: 7px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -5660,6 +5663,13 @@ panel-toplevel.background na-tray-applet {
 }
 .unified headerbar.windowhandle button.horizontal.radio:active stack label, .unified headerbar.windowhandle button.horizontal.radio:active stack image, .unified headerbar.windowhandle button.horizontal.radio:active stack, .unified headerbar.windowhandle button.horizontal.radio:checked stack label, .unified headerbar.windowhandle button.horizontal.radio:checked stack image, .unified headerbar.windowhandle button.horizontal.radio:checked stack {
   color: #ffffff;
+}
+
+/************
+* Rhythmbox *
+*************/
+.sidebar-paned + box {
+  background-color: #0d1928;
 }
 
 .nautilus-window paned > separator {
