@@ -6130,13 +6130,22 @@ filechooser stack .linked > button.popup.toggle:hover, filechooser stack .linked
 .caja-side-pane treeview:hover {
   background-color: rgba(15, 20, 35, 0.05);
 }
-.caja-side-pane > box button:not(:active):not(:checked) {
+.caja-side-pane > box button.flat:not(:active):not(:checked),
+.caja-side-pane > box button.flat.toggle:not(:active):not(:checked) {
   color: #0F1423;
 }
-.caja-side-pane > box button:hover:not(:active) {
-  color: #0F1423;
-  border-color: rgba(0, 0, 0, 0.4);
-  background-color: rgba(198, 202, 205, 0.43);
+.caja-side-pane > box button.flat:hover:not(:active),
+.caja-side-pane > box button.flat.toggle:hover:not(:active) {
+  border-color: #7c9dc8;
+  color: rgba(8, 12, 25, 0.9);
+  background-color: #a5bcd9;
+}
+.caja-side-pane > box button.flat:active, .caja-side-pane > box button.flat:checked,
+.caja-side-pane > box button.flat.toggle:active,
+.caja-side-pane > box button.flat.toggle:checked {
+  color: #ffffff;
+  border-color: #2c568b;
+  background-color: #3364a3;
 }
 .caja-side-pane .frame {
   border-color: #e1e3e5;
