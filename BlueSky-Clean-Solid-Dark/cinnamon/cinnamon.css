@@ -1106,7 +1106,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .magnifier-zoom-region {
-  border: 2px solid maroon;
+  border: 2px solid rgb(128, 0, 0);
 }
 .magnifier-zoom-region .full-screen {
   border-width: 0px;
@@ -1816,18 +1816,25 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .grouped-window-list-item-box.right {
   border-right-width: 2px;
 }
-.grouped-window-list-item-box:hover {
+.grouped-window-list-item-box:hover, .grouped-window-list-item-box:active:hover {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.17);
   border-radius: 2px;
   border-color: rgba(255, 255, 255, 0.5);
 }
-.grouped-window-list-item-box:focus {
+.grouped-window-list-item-box:focus, .grouped-window-list-item-box:active:focus {
   font-weight: bold;
   color: #ffffff;
   background-color: #2B5489;
   border-radius: 2px;
   border-color: rgba(255, 255, 255, 0.5);
+}
+.grouped-window-list-item-box:active {
+  font-weight: normal;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 2px;
+  border-color: rgba(255, 255, 255, 0.4);
 }
 .grouped-window-list-thumbnail-menu {
   color: #ffffff;
