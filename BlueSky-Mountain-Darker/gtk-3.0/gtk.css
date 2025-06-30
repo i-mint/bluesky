@@ -1898,25 +1898,24 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
 }
 .primary-toolbar combobox > .linked > button.combo, headerbar combobox > .linked > button.combo {
   color: rgba(226, 231, 236, 0.8);
-  border-color: #709bd2;
-  background-color: rgba(39, 77, 125, 0.27);
+  background-color: #303C52;
+  border-color: #232c3b;
 }
-.primary-toolbar combobox > .linked > button.combo image, headerbar combobox > .linked > button.combo image {
+.primary-toolbar combobox > .linked > button.combo label, headerbar combobox > .linked > button.combo label, .primary-toolbar combobox > .linked > button.combo image, headerbar combobox > .linked > button.combo image {
   color: inherit;
 }
 .primary-toolbar combobox > .linked > button.combo:hover, headerbar combobox > .linked > button.combo:hover {
-  color: #ffffff;
-  border-color: #709bd2;
-  background-color: #417AC3;
+  border-color: #232c3b;
+  color: rgba(231, 235, 240, 0.8);
+  background-color: #475879;
   box-shadow: none;
 }
-.primary-toolbar combobox > .linked > button.combo:hover image, headerbar combobox > .linked > button.combo:hover image {
-  color: inherit;
-}
 .primary-toolbar combobox > .linked > button.combo:disabled, headerbar combobox > .linked > button.combo:disabled {
+  background-color: rgba(13, 25, 40, 0);
+  border-color: rgba(13, 25, 40, 0);
+}
+.primary-toolbar combobox > .linked > button.combo:disabled label, headerbar combobox > .linked > button.combo:disabled label, .primary-toolbar combobox > .linked > button.combo:disabled, headerbar combobox > .linked > button.combo:disabled {
   color: rgba(226, 231, 236, 0.35);
-  border-color: #709bd2;
-  background-color: rgba(39, 77, 125, 0.12);
 }
 .primary-toolbar combobox > .linked > entry.combo:dir(ltr), headerbar combobox > .linked > entry.combo:dir(ltr) {
   border-right-style: none;
