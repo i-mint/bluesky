@@ -1596,10 +1596,10 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   background-color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.4);
 }
-.primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher):not(.nautilus-path-bar) button:not(:last-child):not(:only-child), headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher):not(.nautilus-path-bar) button:not(:last-child):not(:only-child) {
+.primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) button:not(:last-child):not(:only-child), headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) button:not(:last-child):not(:only-child) {
   margin-right: 1px;
 }
-.primary-toolbar .linked:not(.vertical):not(.path-bar):not(.nautilus-path-bar) > button, headerbar .linked:not(.vertical):not(.path-bar):not(.nautilus-path-bar) > button {
+.primary-toolbar .linked:not(.vertical):not(.path-bar) > button, headerbar .linked:not(.vertical):not(.path-bar) > button {
   border-radius: 4px;
   border-style: solid;
 }
@@ -1929,14 +1929,6 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
 }
 .primary-toolbar combobox > .linked > entry.combo:dir(rtl):focus, headerbar combobox > .linked > entry.combo:dir(rtl):focus {
   box-shadow: none;
-}
-.primary-toolbar combobox > .linked > button.combo:dir(ltr), headerbar combobox > .linked > button.combo:dir(ltr) {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.primary-toolbar combobox > .linked > button.combo:dir(rtl), headerbar combobox > .linked > button.combo:dir(rtl) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
 }
 .primary-toolbar switch:backdrop, headerbar switch:backdrop {
   opacity: 0.75;
@@ -4616,7 +4608,6 @@ button.nautilus-circular-button.image-button label {
 }
 
 .nemo-window notebook > stack .view, .nemo-window notebook > stack iconview {
-  color: #E4E7EA;
   background-image: -gtk-gradient(linear, 0 0, 1 0, color-stop(0, #1F2A3B), color-stop(0.2, #1F2A3B), color-stop(0.2, #1b2534), color-stop(0.4, #1b2534), color-stop(0.4, #1F2A3B), color-stop(0.6, #1F2A3B), color-stop(0.6, #1b2534), color-stop(0.8, #1b2534), color-stop(0.8, #1F2A3B), color-stop(1, #1F2A3B));
 }
 .nemo-window notebook > stack .view:selected, .nemo-window notebook > stack iconview:selected {

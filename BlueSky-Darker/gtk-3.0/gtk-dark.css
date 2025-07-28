@@ -1930,14 +1930,6 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
 .primary-toolbar combobox > .linked > entry.combo:dir(rtl):focus, headerbar combobox > .linked > entry.combo:dir(rtl):focus {
   box-shadow: none;
 }
-.primary-toolbar combobox > .linked > button.combo:dir(ltr), headerbar combobox > .linked > button.combo:dir(ltr) {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.primary-toolbar combobox > .linked > button.combo:dir(rtl), headerbar combobox > .linked > button.combo:dir(rtl) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
 .primary-toolbar switch:backdrop, headerbar switch:backdrop {
   opacity: 0.75;
 }
@@ -4617,7 +4609,6 @@ button.nautilus-circular-button.image-button label {
 
 .nemo-window notebook > stack .view, .nemo-window notebook > stack iconview {
   background-image: linear-gradient(to right, #1b2534 50%, #1F2A3B 50%);
-  color: #E4E7EA;
 }
 .nemo-window notebook > stack .view:selected, .nemo-window notebook > stack iconview:selected {
   color: #E4E7EA;
