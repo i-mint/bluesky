@@ -5668,6 +5668,10 @@ panel-toplevel.background na-tray-applet {
   background-color: rgba(104, 149, 207, 0.93);
 }
 
+toolbar > toolitem > box > button, .inline-toolbar > toolitem > box > button {
+  padding: 3px 6px;
+}
+
 .nautilus-window paned > separator {
   background-image: linear-gradient(to bottom, rgba(225, 227, 229, 0.93), rgba(225, 227, 229, 0.93));
 }
