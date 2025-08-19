@@ -749,7 +749,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .calendar-day {
   border-width: 0;
   color: rgba(228, 231, 234, 0.8);
-  border: 2px solid transparent;
 }
 .calendar-day:hover {
   background-color: rgba(0, 0, 0, 0.3);
