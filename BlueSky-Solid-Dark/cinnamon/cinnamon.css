@@ -848,7 +848,10 @@ StScrollBar StButton#hhandle:active {
 
 .calendar-week-number {
   color: rgba(228, 231, 234, 0.7);
+  background-color: #1d2737;
+  border-radius: 4px;
   font-size: 80%;
+  font-weight: bold;
 }
 
 .calendar-day-heading {
