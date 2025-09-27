@@ -567,6 +567,10 @@ StScrollBar StButton#hhandle:active {
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
 }
+.window-caption StLabel {
+  margin-right: 25px;
+  margin-left: 0;
+}
 .window-caption#selected {
   background-color: #2B5489;
   color: #ffffff;
