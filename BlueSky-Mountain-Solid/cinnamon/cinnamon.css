@@ -557,24 +557,30 @@ StScrollBar StButton#hhandle:active {
 }
 
 .window-caption {
-  background-color: rgba(239, 240, 241, 0.93);
-  border: 1px solid rgba(239, 240, 241, 0.93);
+  background-color: rgba(212, 215, 217, 0.93);
+  border: 1px solid linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   color: #0F1423;
-  spacing: 25px;
+  spacing: 5px;
   border-radius: 2px;
   font-size: 9pt;
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
 }
-.window-caption StLabel {
-  margin-right: 25px;
-  margin-left: 0;
-}
 .window-caption#selected {
   background-color: #417AC3;
   color: #ffffff;
   border: 1px solid #417AC3;
-  spacing: 25px;
+  spacing: 5px;
+}
+.window-caption:focus {
+  background-color: rgba(242, 243, 243, 0.93);
+  color: #0F1423;
+  border: 1px solid linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.window-border {
+  border: 4px solid #417AC3;
+  border-radius: 4px;
 }
 
 .expo-workspaces-name-entry,
