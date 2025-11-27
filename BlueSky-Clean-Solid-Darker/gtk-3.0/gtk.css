@@ -4855,6 +4855,9 @@ paned.gedit-side-panel-paned treeview.view:backdrop {
 paned.gedit-side-panel-paned treeview.view.separator {
   color: #0d1217;
 }
+paned.gedit-side-panel-paned treeview.view.separator, paned.gedit-side-panel-paned treeview.view.separator:backdrop {
+  color: rgba(0, 0, 0, 0.1);
+}
 
 .pluma-window statusbar frame > border {
   border: none;

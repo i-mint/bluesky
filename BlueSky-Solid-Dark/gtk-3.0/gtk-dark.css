@@ -4883,8 +4883,8 @@ paned.gedit-side-panel-paned treeview.view:selected:hover {
   color: #ffffff;
   background-color: #274c7b;
 }
-paned.gedit-side-panel-paned treeview.view.separator {
-  color: #10171d;
+paned.gedit-side-panel-paned treeview.view.separator, paned.gedit-side-panel-paned treeview.view.separator:backdrop {
+  color: rgba(0, 0, 0, 0.12);
 }
 
 .pluma-window statusbar frame > border {
