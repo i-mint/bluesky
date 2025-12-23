@@ -5450,16 +5450,21 @@ panel-toplevel.background na-tray-applet {
   border-radius: 50%;
   padding: 4px;
   opacity: 0.7;
+  border: 1px solid transparent;
 }
 .thunar notebook tabs > tab button.flat:hover image {
+  color: #333333;
   background-color: #e1e4f8;
   padding: 4px;
   opacity: 1;
+  border: 1px solid #cdd1f3;
 }
 .thunar notebook tabs > tab button.flat:active image {
+  color: #0f0f0f;
   background-color: #c0c5f1;
   padding: 4px;
   opacity: 1;
+  border: 1px solid #cdd1f3;
 }
 .thunar toolbar, .thunar .inline-toolbar {
   background-color: #0d1928;
