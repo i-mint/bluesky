@@ -5469,6 +5469,40 @@ panel-toplevel.background na-tray-applet {
 .thunar toolbar > toolitem box.horizontal > entry:backdrop label, .thunar .inline-toolbar > toolitem box.horizontal > entry:backdrop label, .thunar toolbar > toolitem box.horizontal > entry:backdrop image, .thunar .inline-toolbar > toolitem box.horizontal > entry:backdrop image, .thunar toolbar > toolitem box.horizontal > entry:backdrop, .thunar .inline-toolbar > toolitem box.horizontal > entry:backdrop {
   color: rgba(13, 19, 38, 0.5);
 }
+.thunar toolbar > toolitem > button.popup.toggle, .thunar .inline-toolbar > toolitem > button.popup.toggle {
+  color: rgba(13, 19, 38, 0.9);
+  background-color: #90ACD0;
+  border-color: #7c9dc8;
+}
+.thunar toolbar > toolitem > button.popup.toggle label, .thunar .inline-toolbar > toolitem > button.popup.toggle label, .thunar toolbar > toolitem > button.popup.toggle image, .thunar .inline-toolbar > toolitem > button.popup.toggle image {
+  color: inherit;
+}
+.thunar toolbar > toolitem > button.popup.toggle:hover, .thunar .inline-toolbar > toolitem > button.popup.toggle:hover {
+  border-color: #7c9dc8;
+  color: rgba(8, 12, 25, 0.9);
+  background-color: #a5bcd9;
+}
+.thunar toolbar > toolitem > button.popup.toggle:active, .thunar .inline-toolbar > toolitem > button.popup.toggle:active, .thunar toolbar > toolitem > button.popup.toggle:checked, .thunar .inline-toolbar > toolitem > button.popup.toggle:checked {
+  color: #ffffff;
+  border-color: #2c568b;
+  background-color: #3364a3;
+  background-clip: border-box;
+}
+.thunar toolbar > toolitem > button.popup.toggle:disabled, .thunar .inline-toolbar > toolitem > button.popup.toggle:disabled {
+  background-color: rgba(104, 149, 207, 0);
+  border-color: rgba(104, 149, 207, 0);
+}
+.thunar toolbar > toolitem > button.popup.toggle:disabled label, .thunar .inline-toolbar > toolitem > button.popup.toggle:disabled label, .thunar toolbar > toolitem > button.popup.toggle:disabled, .thunar .inline-toolbar > toolitem > button.popup.toggle:disabled {
+  color: rgba(13, 19, 38, 0.45);
+}
+.thunar toolbar > toolitem > button.popup.toggle:disabled:active, .thunar .inline-toolbar > toolitem > button.popup.toggle:disabled:active, .thunar toolbar > toolitem > button.popup.toggle:disabled:checked, .thunar .inline-toolbar > toolitem > button.popup.toggle:disabled:checked {
+  color: rgba(255, 255, 255, 0.75);
+  border-color: rgba(65, 122, 195, 0.65);
+  background-color: rgba(65, 122, 195, 0.65);
+}
+.thunar toolbar > toolitem > button.popup.toggle:backdrop, .thunar .inline-toolbar > toolitem > button.popup.toggle:backdrop {
+  opacity: 0.6;
+}
 .thunar toolbar .linked.path-bar > button.path-bar-button.toggle, .thunar toolbar .linked.path-bar > button.path-bar-button, .thunar .inline-toolbar .linked.path-bar > button.path-bar-button {
   color: rgba(13, 19, 38, 0.9);
   background-color: #90ACD0;
